@@ -7,7 +7,7 @@ Halophilic archaea of the genus <em>Halobacterium</em> serve as the main genetic
 
 Our Co-PI for this project includes Dr. Linda Deveaux, who's laboratory in association with National Center for Genomic Resources (NGCR)(published, see citations), generated sample genome sequences which they provided as demonstration data for this application.  The Deveaux Lab data represents separate cultures from an artificial selection experiment in which parallel <em>Halobacterium</em> cultures were treated with high-dosage ionizing radiation over serial treatments, and the genome from each culture sequenced with PacBio.  Dr. Deveaux's genetics experiments have identified the conserved DNA-repair gene RPA as being upregulated in response to DNA damage; these experiments can further elucidate differential mutational profiles associated with the RPA pathway.
 
-Collaborator Dr. Jill Mikucki is investigating extremophilc microbial communities in polar- and ice-associated hypersaline lakes.  Her lab collected, isolated, and genome-sequenced microbes from the Blood Falls ecosystem, which discharges water from permanently ice-covered, subsurface hypersaline ponds.
+Collaborator Dr. Jill Mikucki is investigating extremophilc microbial communities in polar- and ice-associated hypersaline lakes.  Her lab has collected, isolated, and genome-sequenced microbes from the Blood Falls ecosystem in Antarctica, where brine discharges from permanently ice-covered, subsurface hypersaline ponds allow access to unique, extremophilic microbial communities.
 
 ## Methodology
 ### A. <em>Halobacterium salinarium</em> functional genomics meta-analysis
