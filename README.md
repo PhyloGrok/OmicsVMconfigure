@@ -1,1 +1,1 @@
-# GenomeMetaAnalysis_Haloarchaea
+# GenomeMeta_Haloarchaea
