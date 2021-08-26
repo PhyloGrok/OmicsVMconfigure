@@ -17,4 +17,5 @@ In this repository we present a set of automated bioinformatics workflows for co
  
 ### B. Meta-genomics, diversity and phylogenetics analysis for environmental isolates from hypersaline microbial habitats 
 
-
+## Funding
+NSF Extreme Science and Engineering Discovery Environment (XSEDE) has granted computational resources in a Research Startup award.
