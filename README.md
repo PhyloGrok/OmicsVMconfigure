@@ -9,6 +9,8 @@ Our Co-PI for this project includes Dr. Linda Deveaux, who's laboratory in assoc
 
 Collaborator Dr. Jill Mikucki is investigating extremophilc microbial communities in polar- and ice-associated hypersaline lakes.  Her lab has collected, isolated, and genome-sequenced microbes from the Blood Falls ecosystem in Antarctica, where brine discharges from permanently ice-covered, subsurface hypersaline ponds allow access to unique, extremophilic microbial communities.  These novel genomes are representative of the broader diversity of the halophilic archaea and bacteria, providing a context for phylogenetics applications for the demonstration dataset.
 
+This collection of coded pipelines offers automated functions for microbial genome sequence data processing and analysis.  These include NCBI data retrieval, processing and QC, assembly and PacBio/Illumina hybrid assembly, gene annotation, SNP calling, whole genome sequence alignment, and genome viewer/browser output.  The modified Linux virtual machine will be provided as open source code, as 'Dockerized' VM image with automated output as an R-Shinyapp dashboard.   
+
 ## Methodology
 ### A. <em>Halobacterium salinarium</em> functional genomics meta-analysis
 In this repository we present a set of automated bioinformatics workflows for comparative genomics and genome meta-analyses of Haloarchaeal genomics data.  In this application section, sample data is focused on the species <em>Halobacterium salinarium</em>, which has various published experimental genomics datasets and strain-level reference genomes, plus RNA-seq and ChIP-seq datasets accessible in automated manner via the NCBI E-Direct API.
