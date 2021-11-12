@@ -1,1 +1,4 @@
+## NCBI query for SRA run-table results
+## BTEC495 F2021. Robinson and B. Lamotte
+
 ("Halobacterium"[Organism] OR Halobacterium[All Fields]) AND ("biomol dna"[Properties] AND "platform illumina"[Properties] AND "strategy wgs"[Properties] OR "strategy wga"[Properties] OR "strategy wcs"[Properties] OR "strategy clone"[Properties] OR "strategy finishing"[Properties] OR "strategy validation"[Properties] AND "filetype fastq"[Properties])
