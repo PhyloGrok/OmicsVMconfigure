@@ -3,6 +3,8 @@
 
 ## Download sequencing reads from SRA database using SRAtools API
 ## E-Utils/Edirect script goes here to customize sequences retrieval
+
+prefetch SRR8699861  ## Y. pestis run data
 fastq-dump -A SRR8699861
 
 ## EDirect
