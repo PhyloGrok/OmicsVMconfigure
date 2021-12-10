@@ -19,5 +19,12 @@ In this repository we present a set of automated bioinformatics workflows for co
  
 ### B. Meta-genomics, diversity and phylogenetics analysis for environmental isolates from hypersaline microbial habitats 
 
+## Software Repositories and Computational Methods
+UMAP for Data Integration - https://towardsdatascience.com/umap-for-data-integration-50b5cfa4cdcd
+Circlize handbook - https://jokergoo.github.io/circlize_book/book/index.html
+
+
+
+
 ## Funding
 NSF Extreme Science and Engineering Discovery Environment (XSEDE) has granted computational resources in a Research Startup award.
