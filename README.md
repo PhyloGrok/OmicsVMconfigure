@@ -21,6 +21,7 @@ In this repository we present a set of automated bioinformatics workflows for co
 
 ## Software Repositories and Computational Methods
 UMAP for Data Integration - https://towardsdatascience.com/umap-for-data-integration-50b5cfa4cdcd
+
 Circlize handbook - https://jokergoo.github.io/circlize_book/book/index.html
 
 
