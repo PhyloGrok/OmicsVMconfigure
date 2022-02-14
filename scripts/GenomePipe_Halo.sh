@@ -16,10 +16,12 @@ esearch -db Genome -query "Halobacterium" | efetch -format uid > HaloGenomeList
 esearch -db SRA -query "Halobacterium [ORGN] AND biomol dna [PROP] AND platform pacbio SMRT [PROP]"
 
 ## Run fastqc on the downloaded read files
-fastqc *.fastq
+fastqc SRAreads/*.fastq
+--$ ./fastqc.sh  ## Runs fastqc on all .fastq files in directory
 
 ## Make results directory and transfer fastqc results
 mkdir -p results/fastqc_untrimmed_reads/ mv *.zip results/fastqc_untrimmed_reads/ mv *.html results/fastqc_untrimmed_reads/
+--$ ./postqc.sh  ## Moves fastqc results into qcresults/ directory
 
 ## Run trimmomatic using specified adapters
 trimmomatic SE -threads 4 SRR8699861.fastq \ HaloTrimmed.fastq \ ILLUMINACLIP:adapters.fasta:2:40:15
