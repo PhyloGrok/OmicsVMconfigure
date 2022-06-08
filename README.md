@@ -1,5 +1,5 @@
-# GenomeMeta_Haloarchaea
-Dr. Jeffrey Robinson
+# HaloOmics
+PI: Dr. Jeffrey Robinson
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 ## Introduction
