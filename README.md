@@ -4,7 +4,7 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 
 
 ### Data Retrieval<br>
-1. [SRAquery.txt](SRA_runtable/SRAquery.txt). Query string for SRA-tools data retrieval, outputs a list ([SRA_Acc_List.txt](SRA_runtable/SRA_Acc_List.txt)) of SRA accession uids for Halobacterium genomic DNA .fastq files. <br>
+1. [SRAquery.txt](SRA_runtable/SRAquery.txt). Query string for SRA-tools data retrieval, outputs a list ([SRA_Acc_List.txt](SRA_runtable/SRR_Acc_List.txt)) of SRA accession uids for Halobacterium genomic DNA .fastq files. <br>
 2. [SRAretrieve.sh](SRA_runtable/SRAretrieve.sh). Shell script runs prefetch and fasterq-dump from NCBI SRAtools API, using the input list "SRA_Acc_List.txt", retrieving all .fastq files. <br>
 3. [SRARunTable.csv](SRA_runtable/SraRunTable.csv). Table of metadata for the retrieved SRA run dataset.<br>
 
