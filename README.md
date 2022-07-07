@@ -1,5 +1,5 @@
 # HaloOmics
-PI: Dr. Jeffrey Robinson
+PI: Dr. Jeffrey Robinson<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 ## Introduction
