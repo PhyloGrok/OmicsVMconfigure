@@ -4,7 +4,7 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 
 
 ## I. Workflow 1: Aggregate Assembly of NCBI SRA read data
-Download raw SRA read data, QC, assembly, and SNP variant calling.
+Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly and variant calling steps of this workflow was modified from the Data Carpentries Genomics Workshop: (https://datacarpentry.org/wrangling-genomics/). 
 
 ### A. Data Retrieval with <em>SRA-tools</em> and <em>E-Utils</em> <br>
 1. [SRAquery.txt](SRA_runtable/SRAquery.txt). Query string for SRA-tools data retrieval, outputs a list ([SRA_Acc_List.txt](SRA_runtable/SRR_Acc_List.txt)) of SRA accession uids for Halobacterium genomic DNA .fastq files. <br>
