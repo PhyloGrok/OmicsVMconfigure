@@ -11,8 +11,12 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 ### B. QC with <em>Trimmomatic</em> and <em>fastqc</em> <br>
 1. [fastqc.sh](scripts/fastqc.sh). Runs fastqc on all .fastq files in the 'SRAdata' directory.
 2. [postqc.sh](scripts/postqc.sh). Generates an output directory and moves all fastqc results to the directory.
+3. [trimmomatic.sh](scripts/trimmomatic.sh). Runs adapter and quality trimming, re-runs fastqc on the results (for comparison) and store in a new directory.
 
 ### C. Assembly and Variant calling with <em>bwa</em>, <em>SAMtools</em>, <em>BAMtools</em>, and <em>VCFtools</em> 
+1. [ref-genome.sh](scripts/ref-genome.sh). Retrieve and unzip the reference genome.
+2. [bwa_assembly.sh](scripts/bwa_assembly.sh). Assemble selected reads against the reference genome and store output (.sam file).
+3. 
 
 ## Introduction
 Halophilic archaea of the genus <em>Halobacterium</em> serve as the main genetic model system for Class Halobacteria in a general sense, significant genome data is available to gain insight into the broader levels of genomic diversity within the Class.  The halophilic archaea are therefore key systems for astrobiology-oriented studies of microbial radiation resistance, DNA-damage repair pathways, hypersaline physiology and long-term survival, and poly-extremophilic genetic adaptation. The knowledge gained from these studies provide important insights for understanding the potential for life in Mars- and space-like environments.  
