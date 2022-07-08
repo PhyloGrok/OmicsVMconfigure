@@ -22,7 +22,7 @@ Download raw SRA read data, QC, assembly, and SNP variant calling.
 3. [SamToBam.sh](scripts/SamToBam.sh). Generate and sort a .bam file from .sam file input (SAMtools).
 4. [VariantCall.sh](scripts/VariantCall.sh). Detect and filter SNPs (BAMtools, vcfutils)
 
-## I. Workflow 2: Microbiome Analysis
+## II. Workflow 2: Microbiome Analysis
 
 ## Introduction
 Halophilic archaea of the genus <em>Halobacterium</em> serve as the main genetic model system for Class Halobacteria in a general sense, significant genome data is available to gain insight into the broader levels of genomic diversity within the Class.  The halophilic archaea are therefore key systems for astrobiology-oriented studies of microbial radiation resistance, DNA-damage repair pathways, hypersaline physiology and long-term survival, and poly-extremophilic genetic adaptation. The knowledge gained from these studies provide important insights for understanding the potential for life in Mars- and space-like environments.  
