@@ -4,3 +4,7 @@ samtools view -S -b results/sam/SRR2584866.aligned.sam > results/bam/SRR2584866.
 
 ## Sort the bam file
 samtools sort -o results/bam/SRR2584866.aligned.sorted.bam results/bam/SRR2584866.aligned.bam 
+
+## Observe the assembly parameters
+samtools flagstat results/bam/SRR2584866.aligned.sorted.bam
+
