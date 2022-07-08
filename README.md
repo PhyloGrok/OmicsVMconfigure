@@ -9,6 +9,8 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 3. [SRARunTable.csv](SRA_runtable/SraRunTable.csv). Table of sequence metadata (runtable) for the retrieved SRA dataset.<br>
 
 ### B. QC with <em>Trimmomatic</em> and <em>fastqc</em> <br>
+1. [fastqc.sh](scripts/fastqc.sh). Runs fastqc on all .fastq files in the 'SRAdata' directory.
+2. [postqc.sh](scripts/postqc.sh). Generates an output directory and moves all fastqc results to the directory.
 
 ### C. Assembly and Variant calling with <em>bwa</em>, <em>SAMtools</em>, <em>BAMtools</em>, and <em>VCFtools</em> 
 
