@@ -15,7 +15,7 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 
 ### C. Assembly and Variant calling with <em>bwa</em>, <em>SAMtools</em>, <em>BAMtools</em>, and <em>VCFtools</em> 
 1. [ref-genome.sh](scripts/ref-genome.sh). Retrieve and unzip the reference genome.
-2. [bwa_assembly.sh](scripts/bwa_assembly.sh). Assemble selected reads against the reference genome and store output (.sam file).
+2. [bwa_assembly.sh](scripts/bwa_assembly.sh). Index and assemble selected reads against the reference genome and store output (.sam file).
 3. 
 
 ## Introduction
