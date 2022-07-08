@@ -1,4 +1,4 @@
-# HaloOmics
+# ExtremoBiomics
 PI: Dr. Jeffrey Robinson<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
