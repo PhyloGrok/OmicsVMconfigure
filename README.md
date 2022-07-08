@@ -23,6 +23,8 @@ Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly
 4. [VariantCall.sh](scripts/VariantCall.sh). Detect and filter SNPs (BAMtools, vcfutils)
 
 ## II. Workflow 2: Microbiome Analysis
+1. Microbiome analysis here utilizes the functions of the <em>Mothur</em> package for microbiome analysis (https://github.com/mothur/mothurscripts), as implemented via Python3 executables: Campen_Brine_2018 repository https://github.com/MikuckiLab/Campen_Brine_2018.  Data and analysis published in Campen et al. 2018. 
+2. The scripts provide a complete workflow for 1. Downloading Silva rRNA library, 2. Sequence Processing, 3. Correlating Geochemistry, 4. Alpha diversity, 5. Core microbiome, 6. Biomarker identification. 
 
 ## Introduction
 Halophilic archaea of the genus <em>Halobacterium</em> serve as the main genetic model system for Class Halobacteria in a general sense, significant genome data is available to gain insight into the broader levels of genomic diversity within the Class.  The halophilic archaea are therefore key systems for astrobiology-oriented studies of microbial radiation resistance, DNA-damage repair pathways, hypersaline physiology and long-term survival, and poly-extremophilic genetic adaptation. The knowledge gained from these studies provide important insights for understanding the potential for life in Mars- and space-like environments.  
