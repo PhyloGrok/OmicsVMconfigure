@@ -26,9 +26,6 @@ Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly
 1. Microbiome analysis here utilizes the functions of the <em>Mothur</em> package for microbiome analysis (https://github.com/mothur/mothurscripts), as implemented via Python3 executables: Campen_Brine_2018 repository (https://github.com/MikuckiLab/Campen_Brine_2018).  Data and analysis published in Campen et al. 2018. 
 2. The scripts provide a complete workflow for 1. Downloading Silva rRNA library, 2. Sequence Processing, 3. Correlating Geochemistry, 4. Alpha diversity, 5. Core microbiome, 6. Biomarker identification. 
 
-## Software Repositories and Computational Methods
-UMAP for Data Integration - https://towardsdatascience.com/umap-for-data-integration-50b5cfa4cdcd
-
 ## Funding
 NSF Extreme Science and Engineering Discovery Environment (XSEDE) has granted computational resources in a Research Startup award.
 
