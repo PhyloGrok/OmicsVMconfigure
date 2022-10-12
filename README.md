@@ -3,6 +3,37 @@ PI: Dr. Jeffrey Robinson<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 
+## 0. Configure the Environment
+Benchmarking system
+1. 'heartily-major-mayfly' (Ubuntu 22.04 LTS). m3.large. 16 CPU cores, 60 Gb RAM, 60 GB root disk.
+2. Update system. 
+``` 
+root
+sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 l
+ibxtst6
+```
+3. Install Anaconda, 
+```
+sudo apt install curl -y
+cd /tmp
+curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+sha256sum anaconda.sh
+```
+4. Install Bioconda. ()
+```
+curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
+source /home/exouser/anaconda3/etc/profile.d/conda.sh
+conda install -c bioconda bioconda-utils
+conda list
+conda --version
+```
+5. Install SRA-toolkit.
+```
+wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+tar -vxzf sratoolkit.tar.gz
+export PATH=$PATH:$PWD/sratoolkit.3.0.0-ubuntu64/bin
+```
+
 ## I. Workflow 1: Aggregated Assembly of NCBI SRA read data
 Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly and variant calling steps of this workflow was modified from the Data Carpentries Genomics Workshop: (https://datacarpentry.org/wrangling-genomics/). 
 
