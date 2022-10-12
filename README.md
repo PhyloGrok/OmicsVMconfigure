@@ -4,20 +4,18 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 
 
 ## 0. System Configuration
-1. 'heartily-major-mayfly' (Ubuntu 22.04 LTS). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
+1. (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
 2. Update system, install curl and dependencies. 
 3. Install R and ShinyR, Shiny Server.
 
-https://docs.anaconda.com/anaconda/install/linux/
+Anaconda install. https://docs.anaconda.com/anaconda/install/linux/
 
-https://www.rstudio.com/products/shiny/download-server/ubuntu/
+Shiny R package download/install. https://www.rstudio.com/products/shiny/download-server/ubuntu/
 
-https://docs.rstudio.com/shiny-server/
+Shiny Server admin guide. https://docs.rstudio.com/shiny-server/
 
 ``` 
-root
-sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 l
-ibxtst6
+sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
 sudo apt update
 
@@ -28,6 +26,9 @@ sudo apt-get install r-base
 sudo su - \
 -c "R -e \"install.packages('shiny', repos='https://cran.rstudio.com/')\""
 
+sudo apt-get install gdebi-core
+wget https://download3.rstudio.org/ubuntu-18.04/x86_64/shiny-server-1.5.19.995-amd64.deb
+sudo gdebi shiny-server-1.5.19.995-amd64.deb
 ```
 3. Install Anaconda. 
 
@@ -38,6 +39,7 @@ curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linu
 sha256sum anaconda.sh
 bash anaconda.sh
 ## Accept license
+## Press Enter
 ```
 ```
 ##Activate environment settings
