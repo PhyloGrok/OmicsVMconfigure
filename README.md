@@ -64,6 +64,11 @@ fastq-dump --stdout -X 2 SRR390728
 
 6. Install E-Utilities
 
+https://www.ncbi.nlm.nih.gov/books/NBK179288/
+```
+sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+export PATH=${PATH}:${HOME}/edirect
+```
 
 ## I. Workflow 1: Aggregated Assembly of NCBI SRA read data
 Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly and variant calling steps of this workflow was modified from the Data Carpentries Genomics Workshop: (https://datacarpentry.org/wrangling-genomics/). 
