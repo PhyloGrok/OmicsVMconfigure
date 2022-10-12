@@ -52,7 +52,6 @@ https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
 
 https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration. 
 
-
 ```
 wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 tar -vxzf sratoolkit.tar.gz
@@ -97,4 +96,6 @@ Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly
 NSF Extreme Science and Engineering Discovery Environment (XSEDE) has granted computational resources in a Research Startup award.
 
 ## Citations
-Campen et al. (2018)
+Campen_Brine_2018. https://github.com/MikuckiLab/Campen_Brine_2018. 
+
+bacterial-genomics-tutorial. https://github.com/vappiah/bacterial-genomics-tutorial. 
