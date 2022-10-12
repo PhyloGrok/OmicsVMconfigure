@@ -48,6 +48,8 @@ conda --version
 ```
 5. Install and validate SRA-toolkit.
 
+https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
+
 https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration. 
 
 
@@ -59,6 +61,7 @@ sudo apt install sra-toolkit
 which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
+
 6. Install E-Utilities
 
 
