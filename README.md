@@ -6,8 +6,14 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 ## 0. System Configuration
 1. 'heartily-major-mayfly' (Ubuntu 22.04 LTS). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
 2. Update system, install curl and dependencies. 
+3. Install R and ShinyR, Shiny Server.
 
 https://docs.anaconda.com/anaconda/install/linux/
+
+https://www.rstudio.com/products/shiny/download-server/ubuntu/
+
+https://docs.rstudio.com/shiny-server/
+
 ``` 
 root
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 l
@@ -16,6 +22,12 @@ ibxtst6
 sudo apt update
 
 sudo apt install curl -y
+
+sudo apt-get install r-base
+
+sudo su - \
+-c "R -e \"install.packages('shiny', repos='https://cran.rstudio.com/')\""
+
 ```
 3. Install Anaconda. 
 
