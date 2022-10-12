@@ -40,6 +40,7 @@ sha256sum anaconda.sh
 bash anaconda.sh
 ## Accept license
 ## Press Enter
+## Type yes
 ```
 ```
 ##Activate environment settings
@@ -75,12 +76,26 @@ which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
 
-6. Install E-Utilities
+6. Install E-Utilities/Edirect
 
 https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
 export PATH=${PATH}:${HOME}/edirect
+
+```
+
+7. Install NCBI Datasets download API
+
+
+```
+
+conda create -n ncbi_datasets
+
+conda update -n base -c defaults conda
+
+conda activate ncbi_datasets
+
 ```
 
 ## I. Workflow 1: Aggregated Assembly of NCBI SRA read data
