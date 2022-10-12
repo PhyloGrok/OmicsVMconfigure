@@ -3,23 +3,42 @@ PI: Dr. Jeffrey Robinson<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 
-## 0. Configure the Environment
-Benchmarking system
-1. 'heartily-major-mayfly' (Ubuntu 22.04 LTS). m3.large. 16 CPU cores, 60 Gb RAM, 60 GB root disk.
-2. Update system. 
+## 0. System Configuration
+1. 'heartily-major-mayfly' (Ubuntu 22.04 LTS). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
+2. Update system, install curl and dependencies. 
+
+https://docs.anaconda.com/anaconda/install/linux/
 ``` 
 root
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 l
 ibxtst6
-```
-3. Install Anaconda, 
-```
+
+sudo apt update
+
 sudo apt install curl -y
+```
+3. Install Anaconda. 
+
+https://linuxhint.com/install-anaconda-ubuntu-22-04/
+```
 cd /tmp
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 sha256sum anaconda.sh
+bash anaconda.sh
+## Accept license
 ```
-4. Install Bioconda. ()
+```
+##Activate environment settings
+source ~/.bashrc
+conda list
+conda --version
+```
+4. Install Bioconda. 
+
+https://github.com/bioconda/bioconda-utils.
+
+https://anaconda.org/bioconda/bioconda-utils/. 
+
 ```
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 source /home/exouser/anaconda3/etc/profile.d/conda.sh
@@ -27,7 +46,11 @@ conda install -c bioconda bioconda-utils
 conda list
 conda --version
 ```
-5. Install and validate SRA-toolkit. https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration
+5. Install and validate SRA-toolkit.
+
+https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration. 
+
+
 ```
 wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 tar -vxzf sratoolkit.tar.gz
@@ -36,6 +59,8 @@ sudo apt install sra-toolkit
 which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
+6. Install E-Utilities
+
 
 ## I. Workflow 1: Aggregated Assembly of NCBI SRA read data
 Download raw SRA read data, QC, assembly, and SNP variant calling.  The assembly and variant calling steps of this workflow was modified from the Data Carpentries Genomics Workshop: (https://datacarpentry.org/wrangling-genomics/). 
