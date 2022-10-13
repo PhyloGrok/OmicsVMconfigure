@@ -3,10 +3,11 @@ PI: Dr. Jeffrey Robinson<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 
-## 0. System Configuration
+##[System Configuration](/SysConfig/ConfigureSystem.md)
 1. (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
-2. Update system, install curl and dependencies. 
+2. Update system, install curl and dependencies, install Anaconda, install Bioconda. 
 3. Install R and ShinyR, Shiny Server.
+4. Install sra-toolkit, install Edirect, install datasets
 
 Anaconda install. https://docs.anaconda.com/anaconda/install/linux/
 
