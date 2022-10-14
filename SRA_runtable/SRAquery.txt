@@ -7,5 +7,4 @@ esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[
 ll Fields]" | efilter -query "biomol dna[PROP]" AND "platform illumina[PROP]" | efetch -format xml > esearchresults.txt
 
 ## All Illumina whole genome sequences
-esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strateg
-y wgs[PROP]" | efetch -format uid > SraAccList.txt 
+esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efetch -format uid > ncbi/SraAccList.txt
