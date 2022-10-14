@@ -9,4 +9,6 @@ prefetch --option-file SraAccList.txt -O sra/
 
 ## for-loop then retreives the full .fastq files for each accession
 
-for file in ncbi/public/sra/*; do fasterq-dump "$file" ; done
+* for file in ncbi/public/sra/*; do fasterq-dump "$file" ; done
+cd sra/
+fasterq-dump *
