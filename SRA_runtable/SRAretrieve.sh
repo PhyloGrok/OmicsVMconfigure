@@ -2,7 +2,6 @@
 ## Uses installed SRAtools to prefetch from a list of SRA accessions
 
 mkdir sra/
-cd sra
 
 prefetch --option-file SraAccList.txt -O sra/
 
