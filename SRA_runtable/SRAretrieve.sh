@@ -1,7 +1,10 @@
 ## BTEC495 - Fall 2021. Robinson and B. Lamotte
 ## Uses installed SRAtools to prefetch from a list of SRA accessions
 
-prefetch --option-file SraAccList.txt 
+mkdir sra/
+cd sra
+
+prefetch --option-file SraAccList.txt -O sra/
 
 ## prefetch files populate the user home ncbi/ directory
 
