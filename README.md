@@ -13,6 +13,11 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 Download raw SRA read data, QC, assembly, and SNP variant calling. 
 
 ### A. Data Retrieval with <em>SRA-tools</em> and <em>E-Utils</em> <br>
+
+EDirect usage. https://www.ncbi.nlm.nih.gov/books/NBK179288/ 
+
+SRA-tools usage. https://github.com/ncbi/sra-tools/wiki/08.-prefetch-and-fasterq-dump
+
 1. [SRAquery.txt](SRA_runtable/SRAquery.txt). Query string for SRA-tools data retrieval, outputs a list ([SRA_Acc_List.txt](SRA_runtable/SRR_Acc_List.txt)) of SRA accession uids for Halobacterium genomic DNA .fastq files. <br>
 2. [SRAretrieve.sh](SRA_runtable/SRAretrieve.sh). Shell script runs prefetch and fasterq-dump from NCBI SRAtools API, using the input list "SRA_Acc_List.txt", retrieving all .fastq files. <br>
 3. [SRARunTable.csv](SRA_runtable/SraRunTable.csv). Table of sequence metadata (runtable) for the retrieved SRA dataset.<br>
