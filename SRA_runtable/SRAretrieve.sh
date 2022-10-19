@@ -13,5 +13,9 @@ prefetch --option-file SraAccList.txt -O sra/
 ## cd sra/
 ## fasterq-dump *
 
+
+## Activate NCBI datasets
+conda activate ncbi_datasets
+
 ## Retrieve Reference Datasets (into a storage volume)
 datasets download genome taxon Halobacterium --reference --filename ../../media/volume/sdb/refdata/HsalinarumDataset.zip
