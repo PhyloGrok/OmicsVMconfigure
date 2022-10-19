@@ -19,3 +19,6 @@ conda activate ncbi_datasets
 
 ## Retrieve Reference Datasets (into a storage volume)
 datasets download genome taxon Halobacterium --reference --filename ../../media/volume/sdb/refdata/HsalinarumDataset.zip
+
+## Exit ncbi environment
+conda deactivate
