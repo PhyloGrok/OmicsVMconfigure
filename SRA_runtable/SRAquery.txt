@@ -8,8 +8,7 @@ esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[
 
 ## Illumina whole genome SRA .fastq sequences
 
-esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efetch -format uid > ncbi/SraAccList.txt
+esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efetch -format uid > SraAccList.txt
 
-esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efilter -query "library layout paired[PROP]" | efetch -format uid > ncbi/SraAccList.txt 
+esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efilter -query "library layout paired[PROP]" | efetch -format uid > SraAccList.txt 
 
-cd /ncbi
