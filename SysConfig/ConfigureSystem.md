@@ -98,3 +98,11 @@ conda deactivate
 mkdir ../../media/volume/sdb/refdata/
 ```
 
+9. Install fastqc
+```
+conda install -c bioconda fastqc
+```
+10. Install trimmomatic
+```
+conda install -c bioconda trimmomatic
+```
