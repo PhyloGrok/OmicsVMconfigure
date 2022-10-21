@@ -19,7 +19,9 @@ mkdir ../../media/volume/sdb/sra/fastq/
 
 ## Download reference genomes using NCBI datasets beta
 
-## Activate NCBI datasets
+## ncbi_datasets download usage: https://www.ncbi.nlm.nih.gov/datasets/docs/v1/reference-docs/command-line/datasets/download/
+
+## Activate NCBI datasets conda environment
 conda activate ncbi_datasets
 
 ## Retrieve Reference Datasets (into a storage volume)
