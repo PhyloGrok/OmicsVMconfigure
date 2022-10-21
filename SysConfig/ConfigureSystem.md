@@ -91,7 +91,10 @@ conda create -n ncbi_datasets
 conda install -c conda-forge ncbi-datasets-cli
 
 conda deactivate
-
-## conda activate ncbi_datasets
-
 ```
+
+8. Make a datasets download directory in volume
+```
+mkdir ../../media/volume/sdb/refdata/
+```
+
