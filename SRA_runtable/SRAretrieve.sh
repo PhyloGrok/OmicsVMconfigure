@@ -15,7 +15,9 @@ prefetch --option-file SraAccList.txt -O ../../media/volume/sdb/sra/
 ## fasterq-dump *
 
 ## Retrieve .fastq data
+mkdir ../../media/volume/sdb/sra/fastq/
 
+## Download reference genomes using NCBI datasets beta
 
 ## Activate NCBI datasets
 conda activate ncbi_datasets
