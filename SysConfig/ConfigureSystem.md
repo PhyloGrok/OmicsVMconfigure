@@ -106,3 +106,11 @@ sudo apt install fastqc
 ```
 sudo apt install trimmomatic
 ```
+11. Install bwa
+```
+sudo apt install bwa
+```
+12 Install samtools
+```
+sudo apt install samtools
+```
