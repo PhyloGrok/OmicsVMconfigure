@@ -87,7 +87,7 @@ export PATH=${PATH}:${HOME}/edirect
 
 conda create -n ncbi_datasets
 
-conda update -n base -c defaults conda
+## conda update -n base -c defaults conda
 
 conda activate ncbi_datasets
 
