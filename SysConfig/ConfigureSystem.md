@@ -100,9 +100,9 @@ mkdir ../../media/volume/sdb/refdata/
 
 9. Install fastqc
 ```
-conda install -c bioconda fastqc
+sudo apt install fastqc
 ```
 10. Install trimmomatic
 ```
-conda install -c bioconda trimmomatic
+sudo apt install trimmomatic
 ```
