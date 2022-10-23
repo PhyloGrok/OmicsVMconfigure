@@ -8,6 +8,7 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 2. Update system, install curl and dependencies, install Anaconda, install Bioconda. 
 3. Install R and ShinyR, Shiny Server.
 4. Install sra-toolkit, install Edirect, install datasets
+5. Install fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools
 
 ## I. Workflow 1: Aggregate Assembly of NCBI SRA read data
 Download raw SRA read data, QC, assembly, and SNP variant calling. 
