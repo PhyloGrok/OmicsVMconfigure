@@ -9,6 +9,17 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 3. Install R and ShinyR, Shiny Server.
 4. Install sra-toolkit, install Edirect, install datasets
 5. Install fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools
+6. Update Python3 and install Mothur package
+```
+sudo apt-get install software-properties-common
+pip install mothur-py seq-experiment
+```
+7. Install Mothur package
+```
+wget https://github.com/mothur/mothur/releases/download/v1.48.0/Mothur.Ubuntu_20.zip
+unzip Mothur.Ubuntu_20_zip
+```
+
 
 ## I. Workflow 1: Aggregate Assembly of NCBI SRA read data
 Download raw SRA read data, QC, assembly, and SNP variant calling. 
