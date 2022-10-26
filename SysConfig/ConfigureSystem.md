@@ -110,7 +110,22 @@ sudo apt install trimmomatic
 ```
 sudo apt install bwa
 ```
-12 Install samtools
+12. Install samtools
 ```
 sudo apt install samtools
+```
+
+13. Install igv-reports
+```
+conda create -n igvreports python=3.7.1
+conda activate igvreports
+
+conda config --add channels r
+conda config --add channels bioconda
+conda install pysam
+```
+14. Clone igv-reports GitHub repo
+```
+wget wget https://github.com/igvteam/igv-reports/archive/refs/heads/master.zip
+unzip master.zip
 ```
