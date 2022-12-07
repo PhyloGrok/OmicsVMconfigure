@@ -34,7 +34,7 @@ NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2
 
 NCBI Datasets download usage. https://www.ncbi.nlm.nih.gov/datasets/docs/v1/reference-docs/command-line/datasets/download/
 
-1. [SRAquery.txt](SRA_runtable/SRAquery.txt). Query string for SRA-tools data retrieval, outputs a list ([SRAAccList.txt](SRA_runtable/SRAccList.txt)) of SRA accession uids for Halobacterium genomic DNA .fastq files. <br>
+1. [SRAquery.txt](SRA_runtable/SRAquery.txt). Query string for SRA-tools data retrieval, outputs a list ([SraAccList.txt](SRA_runtable/SraAccList.txt)) of SRA accession uids for Halobacterium genomic DNA .fastq files. <br>
 2. [SRAretrieve.sh](SRA_runtable/SRAretrieve.sh). Shell script runs prefetch and fasterq-dump from NCBI SRAtools API, using the input list "SRA_Acc_List.txt", retrieving all .fastq files. <br>
 3. [SRARunTable.csv](SRA_runtable/SraRunTable.csv). Table of sequence metadata (runtable) for the retrieved SRA dataset.<br>
 
