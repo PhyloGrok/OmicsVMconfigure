@@ -8,12 +8,7 @@ esearch -db pubmed -query "tn3 transposition immunity" | efetch -format medline
 
 2. Retrieve protein fasta files associated with PubMed results from query "opsin gene conversion".
 ```
-esearch -db pubmed -query "opsin gene conversion" | \
-
-elink -related | \
-elink -target protein | \
-efilter -division rod | \
-efetch -format fasta > fastas.fasta
+esearch -db pubmed -query "opsin gene conversion" | elink -related | elink -target protein | efilter -division rod | efetch -format fasta > fastas.fasta
 ```
 
 3. Retrieve abstracts from PubMed results from query "lycopene cyclase"
