@@ -1,14 +1,21 @@
 ## NCBI query for SRA run-table results
 ## BTEC495 F2021. Robinson and B. Lamotte
 
+## Retrieve Halobacterium PubMed records
+```
+esearch -db pubmed -query "Halobacterium[ORGN]" | efetch -format medline > HsAbstracts
+```
+
 #("Halobacterium"[Organism] OR Halobacterium[All Fields]) AND ("biomol dna"[Properties] AND "platform illumina"[Properties] AND "strategy wgs"[Properties] OR "strategy #wga"[Properties] OR "strategy wcs"[Properties] OR "strategy clone"[Properties] OR "strategy finishing"[Properties] OR "strategy validation"[Properties] AND "filetype #fastq"[Properties])
 
 ## Search string for ncbi website
+```
 esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" AND "platform illumina"[PROP]esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" AND "platform illumina[PROP]" | efetch -format xml > esearchresults.txt
-
+```
 ## Illumina whole genome SRA .fastq sequences
-
+```
 esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efetch -format uid > SraAccList.txt
-
+```
+```
 esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efilter -query "library layout paired[PROP]" | efetch -format uid > SraAccList.txt 
-
+```
