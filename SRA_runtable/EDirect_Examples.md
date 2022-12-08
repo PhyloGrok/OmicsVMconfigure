@@ -8,6 +8,10 @@ esearch -db pubmed -query "opsin gene conversion" | \
 elink -related | \
 elink -target protein | \
 efilter -division rod | \
-efetch -format fasta
+efetch -format fasta > fastas.fasta
 ```
 
+```
+  esearch -db pubmed -query "lycopene cyclase" | efetch -format abstract > abstracts.txt
+```
+  
