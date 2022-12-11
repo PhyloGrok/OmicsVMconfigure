@@ -1,4 +1,6 @@
 esearch -db pubmed -query "Halobacterium" | efetch -format medline > ../../media/volume/sdb/medline.txt
 
+efetch -db taxonomy -id 2239
 
 esearch -db protein -query "Halobacterium" | efetch -format fasta > ../../media/volume/sdb/proteins.fasta
+
