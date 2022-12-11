@@ -2,5 +2,4 @@ esearch -db pubmed -query "Halobacterium" | efetch -format medline > ../../media
 
 efetch -db taxonomy -id 2239
 
-esearch -db protein -query "Halobacterium" | efetch -format fasta > ../../media/volume/sdb/proteins.fasta
-
+esearch -db protein -query "Halobacterium salinarum"[ORGN] | efetch -format fasta > ../../media/volume/sdb/proteins.fasta
