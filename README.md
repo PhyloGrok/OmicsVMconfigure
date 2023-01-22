@@ -55,7 +55,10 @@ NCBI Datasets download usage. https://www.ncbi.nlm.nih.gov/datasets/docs/v1/refe
 2. The scripts provide a complete workflow for 1. Downloading Silva rRNA library, 2. Sequence Processing, 3. Correlating Geochemistry, 4. Alpha diversity, 5. Core microbiome, 6. Biomarker identification. 
 
 ## Funding
-NSF Extreme Science and Engineering Discovery Environment (XSEDE) has granted computational resources in a Research Startup award.
+
+This work used [resource-name] at [resource provider] through allocation [allocation number] from the Advanced Cyberinfrastructure Coordination Ecosystem: Services & Support (ACCESS) program, which is supported by National Science Foundation grants #2138259, #2138286, #2138307, #2137603, and #2138296.
+
+This work used [resource-name] at [resource provider] through allocation [allocation project number] from the Extreme Science and Engineering Discovery Environment (XSEDE), which was supported by National Science Foundation grant number #1548562.
 
 ## Citations
 Campen_Brine_2018. https://github.com/MikuckiLab/Campen_Brine_2018. 
@@ -66,4 +69,4 @@ David Y. Hancock, Jeremy Fischer, John Michael Lowe, Winona Snapp-Childs, Marlon
 
 Stewart, C.A., Cockerill, T.M., Foster, I., Hancock, D., Merchant, N., Skidmore, E., Stanzione, D., Taylor, J., Tuecke, S., Turner, G., Vaughn, M., and Gaffney, N.I., “Jetstream: a self-provisioned, scalable science and engineering cloud environment.” 2015, In Proceedings of the 2015 XSEDE Conference: Scientific Advancements Enabled by Enhanced Cyberinfrastructure. St. Louis, Missouri. ACM: 2792774. p. 1-8. DOI: https://dx.doi.org/10.1145/2792745.2792774
 
-John Towns, Timothy Cockerill, Maytal Dahan, Ian Foster, Kelly Gaither, Andrew Grimshaw, Victor Hazlewood, Scott Lathrop, Dave Lifka, Gregory D. Peterson, Ralph Roskies, J. Ray Scott, Nancy Wilkins-Diehr, “XSEDE: Accelerating Scientific Discovery,” Computing in Science & Engineering, vol.16, no. 5, pp. 62–74, Sept.–Oct. 2014. DOI: https://dx.doi.org/10.1109/MCSE.2014.80
+Towns, J, and T Cockerill, M Dahan, I Foster, K Gaither, A Grimshaw, V Hazlewood, S Lathrop, D Lifka, GD Peterson, R Roskies, JR Scott. “XSEDE: Accelerating Scientific Discovery”, Computing in Science & Engineering, vol.16, no. 5, pp. 62-74, Sept.-Oct. 2014, doi:10.1109/MCSE.2014.80
