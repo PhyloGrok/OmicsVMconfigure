@@ -80,7 +80,7 @@ export PATH=${PATH}:${HOME}/edirect
 ```
 alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, and users can enable it by running:
 ```
-export PATH="/usr/local/bin/edirect:$PATH"
+export PATH="/usr/local/bin/edirect/:$PATH"
 ```
 
 7. Install NCBI Datasets download API
