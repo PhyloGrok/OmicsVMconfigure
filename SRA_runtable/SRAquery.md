@@ -12,6 +12,21 @@ esearch -db pubmed -query "Halobacterium[ORGN]" | efetch -format medline > HsAbs
 ```
 esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" AND "platform illumina"[PROP]esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" AND "platform illumina[PROP]" | efetch -format xml > esearchresults.txt
 ```
+
+## Retrieve reference genomes
+Extract Ref-seq aassembly accession
+```
+esearch -db genome  -query "txid56812" | efetch -format docsum | xtract -pattern DocumentSummary -element Assembly_Accession
+```
+Download fasta files using ref-seq assembly accession
+```
+esearch -db assembly -query GCF_000014705.1 | elink -target nucleotide -name \
+        assembly_nuccore_refseq | efetch -format fasta > GCF_000014705.1.fa
+```
+Extract fasta file(s) from txid query
+```
+esearch -db genome  -query "txid56812" | elink -target nuccore | efetch -format fasta > aa.fa
+```
 ## Illumina whole genome SRA .fastq sequences
 ```
 esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[PROP]" | efilter -query "platform illumina[PROP]" | efilter -query "strategy wgs[PROP]" | efetch -format uid > SraAccList.txt
