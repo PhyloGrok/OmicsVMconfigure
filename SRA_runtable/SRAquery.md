@@ -14,6 +14,10 @@ esearch -db sra -query "Halobacterium[All Fields]" | efilter -query "biomol dna[
 ```
 
 ## Retrieve reference genomes
+https://linsalrob.github.io/ComputationalGenomicsManual/Databases/NCBI_Edirect.html 
+
+https://astrobiomike.github.io/unix/ncbi_eutils 
+
 Extract Ref-seq aassembly accession
 ```
 esearch -db genome  -query "txid56812" | efetch -format docsum | xtract -pattern DocumentSummary -element Assembly_Accession
