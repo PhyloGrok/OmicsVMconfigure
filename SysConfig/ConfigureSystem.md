@@ -77,7 +77,10 @@ https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
 export PATH=${PATH}:${HOME}/edirect
-
+```
+alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, and users can enable it by running:
+```
+export PATH="/usr/local/bin/edirect:$PATH"
 ```
 
 7. Install NCBI Datasets download API
