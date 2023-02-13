@@ -1,14 +1,23 @@
 ## System Configuration
-1. Base OS: (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
-2. Update system, install curl and dependencies. 
-3. Install R and ShinyR, Shiny Server.
+General Workflow
+Base VM: (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
+1. Update system, install curl and dependencies. 
+2. Install R.
+3. Install Anaconda
+4. Install BioConda
+5. Install and Validate NCBI SRA-toolkit
+6. Install NCBI E-Utilities/EDirect API
+7. Download and install NCBI datasets API (beta)
+8. Make a datasets directory in attached volume
+9. Install fastqc
+10. Install trimmomatic
+11. Install bwa
+12. Install samtools
+13,14. Install/Clone igv-reports (not validated)
 
 Anaconda install. https://docs.anaconda.com/anaconda/install/linux/
 
-Shiny R package download/install. https://www.rstudio.com/products/shiny/download-server/ubuntu/
-
-Shiny Server admin guide. https://docs.rstudio.com/shiny-server/
-
+1, 2: Update System, install base R.
 ``` 
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
@@ -17,13 +26,6 @@ sudo apt update
 sudo apt install curl -y
 
 sudo apt-get install r-base
-
-sudo su - \
--c "R -e \"install.packages('shiny', repos='https://cran.rstudio.com/')\""
-
-sudo apt-get install gdebi-core
-wget https://download3.rstudio.org/ubuntu-18.04/x86_64/shiny-server-1.5.19.995-amd64.deb
-sudo gdebi shiny-server-1.5.19.995-amd64.deb
 ```
 3. Install Anaconda. 
 
@@ -84,8 +86,6 @@ export PATH="/usr/local/bin/edirect/:$PATH"
 ```
 
 7. Install NCBI Datasets download API
-
-
 ```
 conda update -n base -c defaults conda
 
@@ -117,7 +117,6 @@ sudo apt install bwa
 ```
 sudo apt install samtools
 ```
-
 13. Install igv-reports
 ```
 conda create -n igvreports python=3.7.1
