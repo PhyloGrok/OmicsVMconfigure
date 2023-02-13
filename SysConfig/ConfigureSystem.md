@@ -85,7 +85,9 @@ alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, 
 export PATH="/usr/local/bin/edirect/:$PATH"
 ```
 
-7. Install NCBI Datasets download API
+7. Install NCBI Datasets download API. 
+
+NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
 ```
 conda update -n base -c defaults conda
 
