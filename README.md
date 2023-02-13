@@ -3,7 +3,7 @@ PI: Dr. Jeffrey Robinson<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 
-## [System Configuration](/SysConfig/ConfigureSystem.md)
+## [System Setup](/SysConfig/ConfigureSystem.md)
 1. (Ubuntu 20 LTS)*** (GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
    *** Ubuntu 22 has an error with EDirect, "curl command failed" that appears due to missing or incompatible library libssl1.1
 2. Update system, install curl and dependencies, install Anaconda, install Bioconda. 
@@ -11,9 +11,6 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 4. Install NCBI API's SRA-toolkit, E-Utilities/Edirect, NCBI Datasets
 5. Install genomics tools fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools.
 6. Install igv-reports.
-
-
-
 
 ## Funding
 
