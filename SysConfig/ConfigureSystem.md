@@ -1,5 +1,5 @@
-## 0. System Configuration
-1. (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
+## System Configuration
+1. Base OS: (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
 2. Update system, install curl and dependencies. 
 3. Install R and ShinyR, Shiny Server.
 
