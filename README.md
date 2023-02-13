@@ -7,12 +7,12 @@ UMBC Translational Life Science Technology BS program, College of Natural and Ma
 1. (Ubuntu 20 LTS)*** (GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
    *** Ubuntu 22 has an error with EDirect, "curl command failed" that appears due to missing or incompatible library libssl1.1
 2. Update system, install curl and dependencies, install Anaconda, install Bioconda. 
-3. Install R and ShinyR, Shiny Server.
-4. Install sra-toolkit, install Edirect, install datasets
-5. Install fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools
+3. Install R.
+4. Install NCBI API's SRA-toolkit, E-Utilities/Edirect, NCBI Datasets
+5. Install genomics tools fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools.
+6. Install igv-reports.
 
 
-NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
 
 
 ## Funding
