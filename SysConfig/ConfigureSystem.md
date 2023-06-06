@@ -28,12 +28,9 @@ sudo apt install curl -y
 sudo apt-get install r-base
 ```
 3. Install Anaconda. 
-
-https://linuxhint.com/install-anaconda-ubuntu-22-04/
 ```
 cd /tmp
-curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
-sha256sum anaconda.sh
+curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 bash anaconda.sh
 ## Accept license
 ## Press Enter
@@ -104,12 +101,14 @@ mkdir ../../media/volume/sdb/refdata/
 ```
 
 9. Install fastqc
+## In conda environment
+
 ```
-sudo apt install fastqc
+conda install -c bioconda fastqc
 ```
 10. Install trimmomatic
 ```
-sudo apt install trimmomatic
+conda install -c bioconda trimmomatic
 ```
 11. Install bwa
 ```
