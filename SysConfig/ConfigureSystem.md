@@ -2,17 +2,18 @@
 General Workflow
 Base VM: (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
 1. Update system, install curl and dependencies. 
-2. Install R.
-3. Install Anaconda
-4. Install BioConda
+2. Install Anaconda
+3. Install BioConda
+4. Install NCBI E-Utilities/EDirect API
 5. Install and Validate NCBI SRA-toolkit
-6. Install NCBI E-Utilities/EDirect API
-7. Download and install NCBI datasets API (beta)
-8. Make a datasets directory in attached volume
+6. Download and install NCBI datasets API (beta)
+8. Make a projects directory in attached storage volume
 9. Install fastqc
 10. Install trimmomatic
 11. Install bwa
-12. Install samtools
+12. Install samtools, bamtools, vcfutils
+13. Install base-R.
+14. Install R-Shiny package, ShinyServer.
 13,14. Install/Clone igv-reports (not validated)
 
 Anaconda install. https://docs.anaconda.com/anaconda/install/linux/
@@ -25,7 +26,6 @@ sudo apt update
 
 sudo apt install curl -y
 
-sudo apt-get install r-base
 ```
 3. Install Anaconda. 
 ```
@@ -118,6 +118,11 @@ sudo apt install bwa
 12. Install samtools
 ```
 sudo apt install samtools
+```
+13. Install R-base
+```
+sudo apt-get install r-base
+
 ```
 13. Install igv-reports
 ```
