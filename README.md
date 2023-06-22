@@ -17,8 +17,9 @@ Progression of installations:
 1. Update system, install curl and dependencies, install Anaconda, Bioconda. 
 2. Install NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
 3. Conda-Bioconda installations for genomics applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools.
-4. Install igv-reports.
-5. Install base-R, R-Shiny package, and R-ShinyServer.
+4. Install base-R, R-Shiny package, and R-ShinyServer.
+5. Install igv-reports.
+
 
 ## Funding
 
