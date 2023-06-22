@@ -42,6 +42,8 @@ source ~/.bashrc
 conda list
 conda --version
 ```
+
+
 4. Install Bioconda. 
 
 https://github.com/bioconda/bioconda-utils.
@@ -55,6 +57,12 @@ conda install -c bioconda bioconda-utils
 conda list
 conda --version
 ```
+Update channels list
+```
+config --add channels bioconda
+config --add channels conda-forge
+```
+
 5. Install and validate SRA-toolkit.
 
 https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
@@ -100,9 +108,9 @@ conda deactivate
 ```
 mkdir ../../media/volume/sdb/refdata/
 ```
+## In conda environment
 
 9. Install fastqc
-## In conda environment
 
 ```
 conda install -c bioconda fastqc
@@ -113,11 +121,13 @@ conda install -c bioconda trimmomatic
 ```
 11. Install bwa
 ```
-sudo apt install bwa
+conda install -c bioconda bwa
 ```
 12. Install samtools
 ```
-sudo apt install samtools
+conda install -c bioconda samtools
+conda install -c bioconda bamtools
+conda install -c bioconda vcftools
 ```
 13. Install R-base
 ```
