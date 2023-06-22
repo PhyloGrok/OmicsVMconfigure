@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/382447003.svg)](https://zenodo.org/badge/latestdoi/382447003)
 
-PI: Dr. Jeffrey Robinson<br>
+PI: Jeffrey Robinson, MS, PhD<br>
 UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
 
 Instructions for installing genomics tools supporting a genome variant calling workflow in Ubuntu 20 Linux VM.
