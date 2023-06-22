@@ -16,18 +16,18 @@ Base VM: (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CP
 14. Install R-Shiny package, ShinyServer.
 13,14. Install/Clone igv-reports (not validated)
 
-Anaconda install. https://docs.anaconda.com/anaconda/install/linux/
+1, 2: Update System, install curl.
+```
+sudo apt update
+```
+```
+sudo apt install curl -y
+```
 
-1, 2: Update System, install base R.
+3. Install Anaconda. Anaconda Linux installation: https://docs.anaconda.com/anaconda/install/linux/
 ``` 
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
-
-sudo apt update
-
-sudo apt install curl -y
-
 ```
-3. Install Anaconda. 
 ```
 cd /tmp
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
