@@ -3,20 +3,22 @@
 [![DOI](https://zenodo.org/badge/382447003.svg)](https://zenodo.org/badge/latestdoi/382447003)
 
 PI: Jeffrey Robinson, MS, PhD<br>
-UMBC Translational Life Science Technology BS program, College of Natural and Mathematical Sciences
+UMBC, College of Natural and Mathematical Sciences, Translational Life Science Technology (TLST) BS program
 
-Instructions for installing genomics tools supporting a genome variant calling workflow in Ubuntu 20 Linux VM.
+Configure a command-line Linux environment for comparative genomics workflows.  Includes all open-source tools required for searching, downloading, and processing raw NextGen sequencing data and running a genome variant calling workflow.  Build using a Linux Virtual Machine in the NSF Jetstream2 cloud environment.  Web-apps based on this configuation appear in separate repositories.
 
 ## [System Setup](/SysConfig/ConfigureSystem.md)
-General progression of installation steps:
+Starting with a base image of Ubuntu 20 LTS*** (GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.***
 
-1. Starting with a fresh instance of Ubuntu 20 LTS*** (GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
-   *** Ubuntu 22 has an error with EDirect, "curl command failed" that appears due to missing or incompatible library libssl1.1
-2. Update system, install curl and dependencies, install Anaconda, install Bioconda. 
-3. Install R.
-4. Install NCBI SRA-toolkit, E-Utilities/Edirect, NCBI Datasets APIs.
-5. Install genomics applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools.
-6. Install igv-reports.
+*** Initial testing discovered an Ubuntu 22 has an error with EDirect installation, "curl command failed" that appears due to missing or incompatible library libssl1.1.
+
+Progression of installations: 
+   
+1. Update system, install curl and dependencies, install Anaconda, Bioconda. 
+2. Install NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
+3. Conda-Bioconda installations for genomics applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools.
+4. Install igv-reports.
+5. Install base-R, R-Shiny package, and R-ShinyServer.
 
 ## Funding
 
