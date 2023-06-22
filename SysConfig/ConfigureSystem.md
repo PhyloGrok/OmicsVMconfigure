@@ -28,6 +28,8 @@ sudo apt install curl -y
 ``` 
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
+
+Current Anaconda distro may vary, check the directory (https://repo.anaconda.com/archive/)
 ```
 cd /tmp
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
