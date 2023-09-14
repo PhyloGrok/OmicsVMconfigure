@@ -46,12 +46,18 @@ conda --version
 ```
 
 
-4. Install Bioconda. 
+4. Install Bioconda.
+Update channels list
+```
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
 
-https://github.com/bioconda/bioconda-utils.
-
-https://anaconda.org/bioconda/bioconda-utils/. 
-
+https://bioconda.github.io <br>
+https://github.com/bioconda/bioconda-utils<br>
+https://anaconda.org/bioconda/bioconda-utils/<br> 
 ```
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 source /home/exouser/anaconda3/etc/profile.d/conda.sh
@@ -59,7 +65,7 @@ conda install -c bioconda bioconda-utils
 conda list
 conda --version
 ```
-Update channels list
+
 ```
 config --add channels bioconda
 config --add channels conda-forge
