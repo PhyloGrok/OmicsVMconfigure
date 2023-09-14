@@ -29,6 +29,9 @@ sudo apt install curl -y
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
+Install Anaconda for multiple users https://docs.anaconda.com/free/anaconda/install/multi-user/<br>
+Forums say install in opt/ directory for availability for all users:<br>
+https://askubuntu.com/questions/1457726/how-and-where-to-install-conda-to-be-accessible-to-all-users<br>
 Current Anaconda distro may vary, check the directory (https://repo.anaconda.com/archive/)
 ```
 cd /tmp
