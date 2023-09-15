@@ -64,7 +64,7 @@ https://anaconda.org/bioconda/bioconda-utils/<br>
 ```
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
 source /home/exouser/anaconda3/etc/profile.d/conda.sh
-conda install -c bioconda bioconda-utils
+conda install -c bioconda bioconda-utils  ## seems to be deprecated
 conda list
 conda --version
 ```
