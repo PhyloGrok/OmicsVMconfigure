@@ -70,6 +70,13 @@ conda install -c bioconda bamtools
 ```
 conda install -c bioconda vcftools
 ```
+Install snpeff
+```
+conda install -c bioconda snpeff
+snpEff
+```
+
+
 Install NCBI Datasets API. 
 
 NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
@@ -109,6 +116,7 @@ Validate Command
 which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
+
 
 
 Install Bioconda. (unnecessary if above steps executed properly)
