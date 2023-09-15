@@ -109,10 +109,9 @@ sudo wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov
 sudo tar -vxzf sratoolkit.tar.gz
 ```
 Confirm the sratoolkit version before exporting PATH
+copy the export path to the last line of ~/.bashrc
 ```
-export PATH=$PATH:$PWD/sratoolkit.3.0.7-ubuntu64/bin
-```
-Validate
+export PATH=/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin:${PATH}
 ```
 which fastq-dump
 ```
@@ -125,11 +124,8 @@ https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
 '''
-'''
-export PATH=${PATH}:${HOME}/edirect
-```
-alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, and users can enable it by running:
-```
-export PATH="/usr/local/bin/edirect/:$PATH"
-```
 
+Copy and paste command path to the last line of ~/.bashrc
+'''
+export PATH=${HOME}/edirect:${PATH}
+```
