@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/382447003.svg)](https://zenodo.org/badge/latestdoi/382447003)
 
-### PI: Jeffrey Robinson, MS, PhD<br>
+<b>PI: Jeffrey Robinson, MS, PhD</b><br>
 UMBC, College of Natural and Mathematical Sciences, Translational Life Science Technology (TLST) BS program
 
 Install and configure command-line Linux environment for comparative genomics workflows.  Includes open-source tools required for searching, downloading, and processing raw NextGen sequencing data and running a genome variant calling workflow.  Build using a Linux Virtual Machine in the NSF Jetstream2 cloud environment.  Web-apps based on this configuation appear in separate repositories.
