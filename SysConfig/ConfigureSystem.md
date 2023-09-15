@@ -46,6 +46,7 @@ source ~/.bashrc
 conda list
 conda --version
 ```
+## Install Bioconda apps
 
 Install fastqc
 ```
