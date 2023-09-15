@@ -110,7 +110,7 @@ conda update -n base -c defaults conda
 
 conda create -n ncbi_datasets
 
-conda install -c conda-forge ncbi-datasets-cli
+conda install -c conda-forge ncbi-datasets-cli  #might be deprecated
 
 conda deactivate
 ```
