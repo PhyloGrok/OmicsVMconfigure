@@ -77,6 +77,8 @@ conda install -c bioconda vcftools
 Install snpeff
 ```
 conda install -c bioconda snpeff
+```
+```
 snpEff
 ```
 
@@ -90,7 +92,6 @@ conda create -n ncbi_datasets
 ```
 ```
 conda install -c conda-forge ncbi-datasets-cli
-
 ```
 
 ## Install and validate SRA-toolkit.
@@ -114,6 +115,8 @@ export PATH=$PATH:$PWD/sratoolkit.3.0.7-ubuntu64/bin
 Validate
 ```
 which fastq-dump
+```
+```
 fastq-dump --stdout -X 2 SRR390728
 ```
 
@@ -122,6 +125,7 @@ https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
 '''
+
 '''
 export PATH=${PATH}:${HOME}/edirect
 ```
