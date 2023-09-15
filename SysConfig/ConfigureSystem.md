@@ -113,6 +113,7 @@ copy the export path to the last line of ~/.bashrc
 ```
 export PATH=/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin:${PATH}
 ```
+```
 which fastq-dump
 ```
 ```
