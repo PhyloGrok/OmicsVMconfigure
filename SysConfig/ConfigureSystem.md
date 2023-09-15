@@ -38,11 +38,11 @@ cd /tmp ## or /opt
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 bash anaconda.sh
 ## Accept license
-## Press Enter
-## Type yes
+## Press Enter to the default installation PREFIX=/home/exouser/anaconda3
+## Type yes to "initialize Anaconda3"
 ```
 ```
-##Activate environment settings
+## Activate environment settings (or restart session)
 source ~/.bashrc
 conda list
 conda --version
