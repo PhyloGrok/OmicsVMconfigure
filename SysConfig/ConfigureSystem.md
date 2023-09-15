@@ -1,6 +1,6 @@
 ## System Configuration
 General Workflow
-Base VM: (Ubuntu 22.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
+Base VM: (Ubuntu 20.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
 1. Update system, install curl and dependencies. 
 2. Install Anaconda
 3. Install BioConda
@@ -32,7 +32,7 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
 Install Anaconda for multiple users https://docs.anaconda.com/free/anaconda/install/multi-user/<br>
 Forums say install in opt/ directory for availability for all users:<br>
 https://askubuntu.com/questions/1457726/how-and-where-to-install-conda-to-be-accessible-to-all-users<br>
-Current Anaconda distro may vary, check the directory (https://repo.anaconda.com/archive/)
+The following Anaconda distro is validated as of 9/15/23, check the directory for newer distros (https://repo.anaconda.com/archive/)
 ```
 cd /tmp ## or /opt
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
@@ -42,14 +42,48 @@ bash anaconda.sh
 ## Type yes to "initialize Anaconda3"
 ```
 ```
-## Activate environment settings (or restart session)
+##  cd home Activate environment settings (or restart session)
 source ~/.bashrc
 conda list
 conda --version
 ```
 
+Install fastqc
+```
+conda install -c bioconda fastqc
+```
+Install trimmomatic
+```
+conda install -c bioconda trimmomatic
+```
+Install bwa
+```
+conda install -c bioconda bwa
+```
+Install samtools, bamtools, vcftools
+```
+conda install -c bioconda samtools bamtools vcftools
+```
+```
+conda install -c bioconda bamtools
+```
+```
+conda install -c bioconda vcftools
+```
+Install NCBI Datasets API. 
 
-4. Install Bioconda.
+NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
+```
+conda update -n base -c defaults conda
+
+conda create -n ncbi_datasets
+
+conda install -c conda-forge ncbi-datasets-cli  #might be deprecated
+
+```
+
+
+Install Bioconda. (unnecessary if above steps executed properly)
 Update channels list
 ```
 conda config --add channels defaults
@@ -102,44 +136,6 @@ alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, 
 export PATH="/usr/local/bin/edirect/:$PATH"
 ```
 
-7. Install NCBI Datasets download API. 
-
-NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
-```
-conda update -n base -c defaults conda
-
-conda create -n ncbi_datasets
-
-conda install -c conda-forge ncbi-datasets-cli  #might be deprecated
-
-conda deactivate
-```
-
-8. Make a datasets download directory in volume
-```
-mkdir ../../media/volume/sdb/refdata/
-```
-## In conda environment
-
-9. Install fastqc
-
-```
-conda install -c bioconda fastqc
-```
-10. Install trimmomatic
-```
-conda install -c bioconda trimmomatic
-```
-11. Install bwa
-```
-conda install -c bioconda bwa
-```
-12. Install samtools
-```
-conda install -c bioconda samtools
-conda install -c bioconda bamtools
-conda install -c bioconda vcftools
-```
 13. Install R-base
 ```
 sudo apt-get install r-base
