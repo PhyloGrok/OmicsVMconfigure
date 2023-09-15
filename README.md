@@ -14,26 +14,22 @@ Starting with a base VM of Ubuntu 20 LTS*** (GNU/Linux 5.15.0-50-generic x86_64)
 
 ## General environment: 
    
-1. Update system, install curl and dependencies, install Anaconda, and Bioconda applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools, snpEff. 
+1. Update system, install Anaconda, Bioconda applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools, snpEff. 
 2. Install NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
 4. Install base-R, R-Shiny package, and R-ShinyServer. (pending)
 5. Install igv-reports. (pending)
 
 ## Steps
-All installations run from the /home/exouser/ directory of the Jetstream2 VM, to simplify the installation multiple users are not supported.<br>
+Installations can run from the /home/exouser/ directory of the Jetstream2 VM. Multiple users are not supported for simplicity.<br>
 
-1. Update system, install curl. 
-2. Install Anaconda - Anaconda3-2023.03-1-Linux-x86_64.sh
-3. conda install fastqc
-4. conda install trimmomatic
-5. conda install bwa
-6. conda install samtools bamtools vcfutils
-7. conda install snpeff
-8. configure ncbi-datasets conda environment
+1. Update system, (re)install curl (if required). 
+2. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
+3. conda install fastqc, trimmomatic, bwa, samtools, bamtools, vcfutils, snpeff
+8. configure the ncbi-datasets conda environment
 9. Install and validate NCBI SRA-toolkit
 10. Install NCBI E-Utilities/EDirect API<br>
 
-<em>When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ </em>
+<em>When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ and /usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/</em>
 
 (pending validation)
 
@@ -58,7 +54,7 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
 
 The Anaconda3-2023.03-1-Linux-x86_64 distro works of 9/15/23, newer distros are not validated (https://repo.anaconda.com/archive/)
 ```
-cd /tmp ## or /opt
+cd /tmp
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 bash anaconda.sh
 ## Accept license
