@@ -1,14 +1,17 @@
 ## System Configuration
 General Workflow
 Base VM: (Ubuntu 20.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
-1. Update system, install curl and dependencies. 
-2. Install Anaconda
+
+All installations are run in the /home/exouser/ directory of the Jetstream2 VM except where noted, to simplify the installation.  Users should have /home/exouser/anaconda3/ and /home/exouser/edirect/ 
+
+1. Update system, install curl. 
+2. Install Anaconda - Anaconda3-2023.03-1-Linux-x86_64.sh
 3. conda install fastqc
 4. conda install trimmomatic
 5. conda install bwa
 6. conda install samtools bamtools vcfutils
 7. conda install snpeff
-8. configure conda ncbi-datasets environment
+8. configure ncbi-datasets conda environment
 9. Install and validate NCBI SRA-toolkit
 10. Install NCBI E-Utilities/EDirect API
 
@@ -17,10 +20,11 @@ Base VM: (Ubuntu 20.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CP
 12. Install R-Shiny package, ShinyServer
 13. Install/Clone igv-reports
 
-## 1, 2: Update System, install curl.
+## Update System, install curl.
 ```
 sudo apt update
 ```
+Ubuntu Linux 20.04 has curl natively
 ```
 sudo apt install curl -y
 ```
@@ -41,7 +45,7 @@ bash anaconda.sh
 ## Type yes to "initialize Anaconda3"
 ```
 ```
-##  cd home Activate environment settings (or restart session)
+##  cd home, activate environment settings (or restart session)
 source ~/.bashrc
 conda list
 conda --version
@@ -76,7 +80,7 @@ conda install -c bioconda snpeff
 snpEff
 ```
 
-## Install NCBI Datasets API. 
+## Install NCBI Datasets API conda environment. 
 NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
 ```
 conda update -n base -c defaults conda
@@ -96,19 +100,16 @@ https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration.
 cd /usr/local/bin
 ```
 ```
-sudo wget --output-document sratoolkit.tar.gz https://ftp-
-```
-```
-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+sudo wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
 ```
 ```
 sudo tar -vxzf sratoolkit.tar.gz
 ```
-Confirm the sratoolkit version
+Confirm the sratoolkit version before exporting PATH
 ```
 export PATH=$PATH:$PWD/sratoolkit.3.0.7-ubuntu64/bin
 ```
-Validate Command
+Validate
 ```
 which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
@@ -118,6 +119,8 @@ fastq-dump --stdout -X 2 SRR390728
 https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
+'''
+'''
 export PATH=${PATH}:${HOME}/edirect
 ```
 alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, and users can enable it by running:
