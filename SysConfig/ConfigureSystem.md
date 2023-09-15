@@ -3,18 +3,19 @@ General Workflow
 Base VM: (Ubuntu 20.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.
 1. Update system, install curl and dependencies. 
 2. Install Anaconda
-3. Install BioConda
-4. Install NCBI E-Utilities/EDirect API
-5. Install and Validate NCBI SRA-toolkit
-6. Download and install NCBI datasets API (beta)
-8. Make a projects directory in attached storage volume
-9. Install fastqc
-10. Install trimmomatic
-11. Install bwa
-12. Install samtools, bamtools, vcfutils
-13. Install base-R.
-14. Install R-Shiny package, ShinyServer.
-13,14. Install/Clone igv-reports (not validated)
+3. conda install fastqc
+4. conda install trimmomatic
+5. conda install bwa
+6. conda install samtools bamtools vcfutils
+7. conda install snpeff
+8. configure conda ncbi-datasets environment
+9. Install and validate NCBI SRA-toolkit
+10. Install NCBI E-Utilities/EDirect API
+
+(pending validation)
+11. Install base-R.
+12. Install R-Shiny package, ShinyServer
+13. Install/Clone igv-reports
 
 1, 2: Update System, install curl.
 ```
@@ -85,7 +86,7 @@ conda update -n base -c defaults conda
 
 conda create -n ncbi_datasets
 
-conda install -c conda-forge ncbi-datasets-cli  #might be deprecated
+conda install -c conda-forge ncbi-datasets-cli
 
 ```
 
