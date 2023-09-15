@@ -66,7 +66,8 @@ bash anaconda.sh
 - Type yes to "initialize Anaconda3"
 - When complete, cd home and activate environment settings (or restart session)
 ```
-source ~/.bashrc
+cd
+~/.bashrc
 conda list
 conda --version
 ```
