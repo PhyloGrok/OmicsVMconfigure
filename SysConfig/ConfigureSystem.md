@@ -82,6 +82,29 @@ conda install -c conda-forge ncbi-datasets-cli  #might be deprecated
 
 ```
 
+Install and validate SRA-toolkit.
+
+https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
+
+https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration. 
+
+```
+cd /usr/local/bin
+```
+```
+sudo wget --output-document sratoolkit.tar.gz https://ftp-
+```
+```
+trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
+```
+```
+sudo tar -vxzf sratoolkit.tar.gz
+```
+Confirm the sratoolkit version
+```
+export PATH=$PATH:$PWD/sratoolkit.3.0.7-ubuntu64/bin
+```
+
 
 Install Bioconda. (unnecessary if above steps executed properly)
 Update channels list
@@ -108,18 +131,10 @@ config --add channels bioconda
 config --add channels conda-forge
 ```
 
-5. Install and validate SRA-toolkit.
-
-https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
-
-https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration. 
-
+5. 
 ```
-cd /usr/local/bin
-wget --output-document sratoolkit.tar.gz https://ftp-trace.ncbi.nlm.nih.gov/sra/sdk/current/sratoolkit.current-ubuntu64.tar.gz
-tar -vxzf sratoolkit.tar.gz
-export PATH=$PATH:$PWD/sratoolkit.3.0.0-ubuntu64/bin
 sudo apt install sra-toolkit
+```
 which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
