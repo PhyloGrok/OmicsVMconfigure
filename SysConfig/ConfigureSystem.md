@@ -34,7 +34,7 @@ Forums say install in opt/ directory for availability for all users:<br>
 https://askubuntu.com/questions/1457726/how-and-where-to-install-conda-to-be-accessible-to-all-users<br>
 Current Anaconda distro may vary, check the directory (https://repo.anaconda.com/archive/)
 ```
-cd /tmp
+cd /tmp ## or /opt
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
 bash anaconda.sh
 ## Accept license
