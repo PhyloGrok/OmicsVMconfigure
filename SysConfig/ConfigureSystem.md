@@ -84,9 +84,11 @@ snpEff
 NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
 ```
 conda update -n base -c defaults conda
-
+```
+```
 conda create -n ncbi_datasets
-
+```
+```
 conda install -c conda-forge ncbi-datasets-cli
 
 ```
