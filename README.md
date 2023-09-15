@@ -31,8 +31,7 @@ All installations run from the /home/exouser/ directory of the Jetstream2 VM, to
 8. configure ncbi-datasets conda environment
 9. Install and validate NCBI SRA-toolkit
 10. Install NCBI E-Utilities/EDirect API
-
-## When complete, users should have /home/exouser/anaconda3/ and /home/exouser/edirect/ 
+<em>When complete, users should have /home/exouser/anaconda3/ and /home/exouser/edirect/ </em>
 
 (pending validation)
 11. Install base-R.
