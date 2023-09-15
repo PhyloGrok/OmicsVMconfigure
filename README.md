@@ -30,7 +30,7 @@ All installations run from the /home/exouser/ directory of the Jetstream2 VM, to
 7. conda install snpeff
 8. configure ncbi-datasets conda environment
 9. Install and validate NCBI SRA-toolkit
-10. Install NCBI E-Utilities/EDirect API
+10. Install NCBI E-Utilities/EDirect API<br>
 
 <em>When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ </em>
 
