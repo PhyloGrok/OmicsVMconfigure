@@ -7,18 +7,19 @@ UMBC, College of Natural and Mathematical Sciences, Translational Life Science T
 
 Install and configure command-line Linux environment for comparative genomics workflows.  Includes open-source tools required for searching, downloading, and processing raw NextGen sequencing data and running a genome variant calling workflow.  Build using a Linux Virtual Machine in the NSF Jetstream2 cloud environment.  Web-apps based on this configuation appear in separate repositories.
 
-## [System Setup](/SysConfig/ConfigureSystem.md)
+## Set up Ubuntu Linux VM for the VCFgenerator workflow
 Starting with a base VM of Ubuntu 20 LTS*** (GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.***
 
-*** Initial testing discovered an Ubuntu 22 has an error with EDirect installation, "curl command failed" that appears due to missing or incompatible library libssl1.1.
+***testing found Ubuntu 22 EDirect installation error, "curl command failed" that appears due to missing or incompatible library libssl1.1.
 
-General installations: 
+## General environment: 
    
 1. Update system, install curl and dependencies, install Anaconda, and Bioconda applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools, snpEff. 
 2. Install NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
 4. Install base-R, R-Shiny package, and R-ShinyServer. (pending)
 5. Install igv-reports. (pending)
 
+## Steps
 All installations run from the /home/exouser/ directory of the Jetstream2 VM, to simplify the installation multiple users are not supported.<br>
 
 1. Update system, install curl. 
