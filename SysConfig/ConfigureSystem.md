@@ -76,9 +76,7 @@ conda install -c bioconda snpeff
 snpEff
 ```
 
-
-Install NCBI Datasets API. 
-
+## Install NCBI Datasets API. 
 NCBI Datasets (beta) installation. https://www.ncbi.nlm.nih.gov/datasets/docs/v2/download-and-install/
 ```
 conda update -n base -c defaults conda
@@ -89,8 +87,7 @@ conda install -c conda-forge ncbi-datasets-cli
 
 ```
 
-Install and validate SRA-toolkit.
-
+## Install and validate SRA-toolkit.
 https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
 
 https://github.com/ncbi/sra-tools/wiki/03.-Quick-Toolkit-Configuration. 
