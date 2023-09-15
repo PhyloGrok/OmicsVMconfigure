@@ -29,10 +29,9 @@ Installations can run from the /home/exouser/ directory of the Jetstream2 VM. Mu
 9. Install and validate NCBI SRA-toolkit
 10. Install NCBI E-Utilities/EDirect API<br>
 
-<em>When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ and /usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/</em>
+***When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ and /usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/
 
-(pending validation)
-
+(pending validation)<br>
 11. Install base-R.
 12. Install R-Shiny package, ShinyServer
 13. Install/Clone igv-reports
