@@ -104,6 +104,11 @@ Confirm the sratoolkit version
 ```
 export PATH=$PATH:$PWD/sratoolkit.3.0.7-ubuntu64/bin
 ```
+Validate Command
+```
+which fastq-dump
+fastq-dump --stdout -X 2 SRR390728
+```
 
 
 Install Bioconda. (unnecessary if above steps executed properly)
@@ -114,7 +119,6 @@ conda config --add channels bioconda
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
-
 https://bioconda.github.io <br>
 https://github.com/bioconda/bioconda-utils<br>
 https://anaconda.org/bioconda/bioconda-utils/<br> 
@@ -125,19 +129,12 @@ conda install -c bioconda bioconda-utils  ## seems to be deprecated
 conda list
 conda --version
 ```
-
 ```
 config --add channels bioconda
 config --add channels conda-forge
 ```
-
-5. 
 ```
 sudo apt install sra-toolkit
-```
-which fastq-dump
-fastq-dump --stdout -X 2 SRR390728
-```
 
 6. Install E-Utilities/Edirect
 
