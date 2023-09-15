@@ -35,6 +35,7 @@ All installations run from the /home/exouser/ directory of the Jetstream2 VM, to
 <em>When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ </em>
 
 (pending validation)
+
 11. Install base-R.
 12. Install R-Shiny package, ShinyServer
 13. Install/Clone igv-reports
