@@ -114,8 +114,7 @@ which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
 
-Install E-Utilities/Edirect
-
+## Install E-Utilities/Edirect
 https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
 sh -c "$(curl -fsSL ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/install-edirect.sh)"
