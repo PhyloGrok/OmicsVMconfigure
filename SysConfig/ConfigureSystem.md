@@ -117,34 +117,7 @@ which fastq-dump
 fastq-dump --stdout -X 2 SRR390728
 ```
 
-
-
-Install Bioconda. (unnecessary if above steps executed properly)
-Update channels list
-```
-conda config --add channels defaults
-conda config --add channels bioconda
-conda config --add channels conda-forge
-conda config --set channel_priority strict
-```
-https://bioconda.github.io <br>
-https://github.com/bioconda/bioconda-utils<br>
-https://anaconda.org/bioconda/bioconda-utils/<br> 
-```
-curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-5.3.1-Linux-x86_64.sh
-source /home/exouser/anaconda3/etc/profile.d/conda.sh
-conda install -c bioconda bioconda-utils  ## seems to be deprecated
-conda list
-conda --version
-```
-```
-config --add channels bioconda
-config --add channels conda-forge
-```
-```
-sudo apt install sra-toolkit
-
-6. Install E-Utilities/Edirect
+Install E-Utilities/Edirect
 
 https://www.ncbi.nlm.nih.gov/books/NBK179288/
 ```
@@ -156,22 +129,3 @@ alternatively, edirect/ can be moved into the /usr/local/bin/ by the installer, 
 export PATH="/usr/local/bin/edirect/:$PATH"
 ```
 
-13. Install R-base
-```
-sudo apt-get install r-base
-
-```
-13. Install igv-reports
-```
-conda create -n igvreports python=3.7.1
-conda activate igvreports
-
-conda config --add channels r
-conda config --add channels bioconda
-conda install pysam
-```
-14. Clone igv-reports GitHub repo
-```
-wget wget https://github.com/igvteam/igv-reports/archive/refs/heads/master.zip
-unzip master.zip
-```
