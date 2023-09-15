@@ -55,14 +55,18 @@ sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 
 The Anaconda3-2023.03-1-Linux-x86_64 distro works of 9/15/23, newer distros are not validated (https://repo.anaconda.com/archive/)
 ```
 cd /tmp
+```
+```
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
+```
+```
 bash anaconda.sh
-## Accept license
-## Press Enter to the default installation PREFIX=/home/exouser/anaconda3
-## Type yes to "initialize Anaconda3"
 ```
+- Accept license
+- Press Enter to the default installation PREFIX=/home/exouser/anaconda3
+- Type yes to "initialize Anaconda3"
+- When complete, cd home and activate environment settings (or restart session)
 ```
-##  cd home, activate environment settings (or restart session)
 source ~/.bashrc
 conda list
 conda --version
