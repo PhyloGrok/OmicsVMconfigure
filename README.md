@@ -64,7 +64,7 @@ bash anaconda.sh
 - Accept license
 - Press Enter to the default installation PREFIX=/home/exouser/anaconda3
 - Type yes to "initialize Anaconda3"
-- When complete, cd home and activate environment settings (or restart session)
+- When complete, restart the login session, or cd home and activate environment settings
 ```
 cd
 ~/.bashrc
