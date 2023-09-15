@@ -17,7 +17,7 @@ Base VM: (Ubuntu 20.04 LTS)(GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CP
 12. Install R-Shiny package, ShinyServer
 13. Install/Clone igv-reports
 
-1, 2: Update System, install curl.
+## 1, 2: Update System, install curl.
 ```
 sudo apt update
 ```
@@ -25,15 +25,13 @@ sudo apt update
 sudo apt install curl -y
 ```
 
-3. Install Anaconda. Anaconda Linux installation: https://docs.anaconda.com/anaconda/install/linux/
+## Install Anaconda. 
+https://docs.anaconda.com/anaconda/install/linux/
 ``` 
 sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 ```
 
-Install Anaconda for multiple users https://docs.anaconda.com/free/anaconda/install/multi-user/<br>
-Forums say install in opt/ directory for availability for all users:<br>
-https://askubuntu.com/questions/1457726/how-and-where-to-install-conda-to-be-accessible-to-all-users<br>
-The following Anaconda distro is validated as of 9/15/23, check the directory for newer distros (https://repo.anaconda.com/archive/)
+The Anaconda3-2023.03-1-Linux-x86_64 distro works of 9/15/23, newer distros are not validated (https://repo.anaconda.com/archive/)
 ```
 cd /tmp ## or /opt
 curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
