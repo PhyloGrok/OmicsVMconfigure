@@ -93,7 +93,7 @@ conda install -c bioconda samtools bamtools vcftools
 conda install -c bioconda bamtools
 ```
 ```
-conda install -c bioconda vcfutils
+conda install -c bioconda bcftools
 ```
 Install snpeff
 ```
