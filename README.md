@@ -85,9 +85,9 @@ Install bwa
 ```
 conda install -c bioconda bwa
 ```
-Install samtools, bamtools, vcfutils
+Install samtools, bamtools, bcftools
 ```
-conda install -c bioconda samtools bamtools vcftools
+conda install -c bioconda samtools
 ```
 ```
 conda install -c bioconda bamtools
