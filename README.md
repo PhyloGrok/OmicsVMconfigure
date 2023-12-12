@@ -163,6 +163,8 @@ This work used Jetstream at Indiana Universery/Texas Advanced Computing Center (
 
 ## Citations
 
+Erin Alison Becker, Sarah LR Stevens, Bianca Peterson, Jake Cowper Szamosi, Fotis E. Psomopoulos, Travis Wrightsman, Karen Word, Murray Cadzow, Sam Nooij, Sangram Keshari Sahu, Sarah M Brown, Stephen Tahan, Umar Ahmad, Valerie Gartner, Annajiat Alim Rasel, Daniel Kerchner, & rosemm. (2023). datacarpentry/genomics-workshop: Genomics Workshop: September 2023 (2023.09). Zenodo. https://doi.org/10.5281/zenodo.8360950
+
 David Y. Hancock, Jeremy Fischer, John Michael Lowe, Winona Snapp-Childs, Marlon Pierce, Suresh Marru, J. Eric Coulter, Matthew Vaughn, Brian Beck, Nirav Merchant, Edwin Skidmore, and Gwen Jacobs. 2021. “Jetstream2: Accelerating cloud computing via Jetstream.” In Practice and Experience in Advanced Research Computing (PEARC ’21). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. DOI: https://doi.org/10.1145/3437359.3465565
 
 Stewart, C.A., Cockerill, T.M., Foster, I., Hancock, D., Merchant, N., Skidmore, E., Stanzione, D., Taylor, J., Tuecke, S., Turner, G., Vaughn, M., and Gaffney, N.I., “Jetstream: a self-provisioned, scalable science and engineering cloud environment.” 2015, In Proceedings of the 2015 XSEDE Conference: Scientific Advancements Enabled by Enhanced Cyberinfrastructure. St. Louis, Missouri. ACM: 2792774. p. 1-8. DOI: https://dx.doi.org/10.1145/2792745.2792774
