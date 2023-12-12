@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/382447003.svg)](https://zenodo.org/badge/latestdoi/382447003)
 
 <b>PI: Jeffrey Robinson, MS, PhD</b><br>
-BTEC495 Research Intern: Nhi Luu, BS<br>
+Research Intern (BTEC495): Nhi Luu, BS<br>
 UMBC, College of Natural and Mathematical Sciences, Translational Life Science Technology (TLST) BS program<br>
 
 
