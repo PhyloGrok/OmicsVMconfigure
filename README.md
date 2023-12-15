@@ -78,6 +78,12 @@ cd
 conda list
 conda --version
 ```
+### Install NumPy library
+```
+conda install numpy
+```
+
+
 ## Install Bioconda apps
 
 Install fastqc
