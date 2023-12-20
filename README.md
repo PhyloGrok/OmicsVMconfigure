@@ -82,7 +82,14 @@ conda --version
 ```
 conda install numpy
 ```
-
+## Configure Bioconda
+Channels must be installed properly for bcftools instal
+```
+conda config --add channels defaults
+conda config --add channels bioconda
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
 
 ## Install Bioconda apps
 
@@ -106,7 +113,7 @@ conda install -c bioconda samtools
 conda install -c bioconda bamtools
 ```
 ```
-conda install -c bioconda bcftools
+conda install -c conda-forge bcftools
 ```
 Install snpeff
 ```
