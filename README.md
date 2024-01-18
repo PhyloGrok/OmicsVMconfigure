@@ -113,7 +113,7 @@ conda install -c bioconda samtools
 conda install -c bioconda bamtools
 ```
 ```
-conda install -c conda-forge bcftools
+conda install bioconda::bcftools
 ```
 Install snpeff
 ```
