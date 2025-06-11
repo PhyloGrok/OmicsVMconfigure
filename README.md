@@ -39,16 +39,23 @@ Architecture: x86-64<br>
 6. Install igv-reports. (pending)
 
 ## Steps
-Installations can run from the /home/exouser/ directory of the Jetstream2 VM.<br>
+Installations run from the /home/exouser/ directory of a Jetstream2 Linux VM.<br>
 
 1. Update system. 
 2. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
+3. Admin should add locations to user's .bashrc files: "/home/exouser/anaconda3/bin", "/home/exouser/anaconda3/condabin", "/home/exouser/bcftools/", "/home/exouser/edirect/" and "/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/".
+```
+export PATH=/home/exouser/anaconda3/bin:/home/exouser/anaconda3/condabin:/home/exouser/bcftools/:/home/exouser/htslib:$PATH
+```
+
 3. conda install fastqc, trimmomatic, bwa, samtools, bamtools, vcfutils, snpeff
+
+
 8. configure the ncbi-datasets conda environment
 9. Install and validate NCBI SRA-toolkit
 10. Install NCBI E-Utilities/EDirect API<br>
 
-***When complete, users should have directories /home/exouser/anaconda3/ and /home/exouser/edirect/ and /usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/
+
 
 (pending validation)<br>
 11. Install base-R.
