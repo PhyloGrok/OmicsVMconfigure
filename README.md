@@ -1,3 +1,9 @@
+<p align="right">
+  <img src="https://github.com/PhyloGrok/OmicsVMconfigure/blob/images/logo-merck.png" width="200" height="auto"> <br>
+  <img src="https://github.com/PhyloGrok/OmicsVMconfigure/blob/images/Presentation1.png" width="200" height="auto"><br>
+   <img src= "https://github.com/PhyloGrok/OmicsVMconfigure/blob/images/CNMS-logo-copy.png" width="200" height="auto"><br>
+</p>
+
 # OmicsVMconfigure
 
 [![DOI](https://zenodo.org/badge/382447003.svg)](https://zenodo.org/badge/latestdoi/382447003)
