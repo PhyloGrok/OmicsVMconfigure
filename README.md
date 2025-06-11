@@ -19,8 +19,6 @@ Install and configure command-line Linux environment for comparative genomics wo
 ## Set up Ubuntu Linux VM for the VCFgenerator workflow
 Starting with a base VM of Ubuntu 20 LTS*** (GNU/Linux 5.15.0-50-generic x86_64). m3.large, 16 CPU cores, 60 Gb RAM, 60 GB root disk.***
 
-***testing found Ubuntu 22 EDirect installation error, "curl command failed" that appears due to missing or incompatible library libssl1.1.
-
 ## General environment: 
    
 1. Update system, install Anaconda, Bioconda applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools, snpEff. 
