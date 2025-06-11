@@ -41,9 +41,12 @@ Architecture: x86-64<br>
 ## Steps
 Installations run from the /home/exouser/ directory of a Jetstream2 Linux VM.<br>
 
-1. Update system. 
-2. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
-3. NSF Jetstream2 "exouser" should add locations to users .bashrc files: "/home/exouser/anaconda3/bin", "/home/exouser/anaconda3/condabin", "/home/exouser/bcftools/", "/home/exouser/edirect/" and "/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/".
+1. Update system.
+```
+sudo apt update
+```
+3. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
+4. NSF Jetstream2 "exouser" should add locations to users .bashrc files: "/home/exouser/anaconda3/bin", "/home/exouser/anaconda3/condabin", "/home/exouser/bcftools/", "/home/exouser/edirect/" and "/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/".
 ```
 export PATH=/home/exouser/anaconda3/bin:/home/exouser/anaconda3/condabin:/home/exouser/bcftools/:/home/exouser/htslib:$PATH
 ```
