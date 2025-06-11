@@ -55,7 +55,7 @@ sudo apt update
 export PATH=/home/exouser/anaconda3/bin:/home/exouser/anaconda3/condabin:/home/exouser/bcftools/:/home/exouser/htslib:$PATH
 ```
 
-## 2. Install Anaconda Step-by-stem. 
+## 2. Install Anaconda Step-by-step. 
 Official Anaconda installation page: https://docs.anaconda.com/anaconda/install/linux/
 
 The most recent version of Linux-x86_64 (Anaconda3-2024.10-1-Linux-x86_64) is in use (https://repo.anaconda.com/archive/).
