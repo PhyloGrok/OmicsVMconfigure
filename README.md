@@ -15,9 +15,10 @@ UMBC, College of Natural and Mathematical Sciences, Translational Life Science T
 
 **This VM setup was partly adapted from Data Carpentries Genomics Workshop (Becker et al. 2023)<br>
 
-Install and configure command-line Linux environment for comparative genomics workflows.  Includes open-source tools required for searching, downloading, and processing raw NextGen sequencing data and running a genome variant calling workflow.  Build using a Linux Virtual Machine in the NSF Jetstream2 cloud environment.  Web-apps based on this configuation appear in separate repositories.
+Install and configure command-line Linux environment for comparative genomics workflows.  Includes open-source tools required for searching, downloading, and processing raw NextGen sequencing data and running a genome variant calling workflow.
 
 ## Set up Ubuntu Linux VM for the VCFgenerator workflow
+Built using a Linux Virtural Machine in the NSF Jetstream2 cloud environment.<br>
 Operating system: Ubuntu 24.04.2 LTS<br>
 Kernal: Linux 6.11.0-26-generic<br>
 Architecture: x86-64<br>
