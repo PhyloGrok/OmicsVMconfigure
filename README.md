@@ -14,7 +14,7 @@
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
 <b>PI: Jeffrey Robinson, MS, PhD</b><br>
-Research Intern (BTEC495, 2003): Nhi Luu, BS<br>
+Research Intern (BTEC495, 2023): Nhi Luu, BS<br>
 Research Intern (BTEC495, 2025): Elaysha Hall, BS<br>
 Research Intern (BTEC495, 2025): Rachel Chan, BS<br>
 UMBC, College of Natural and Mathematical Sciences, Translational Life Science Technology (TLST) BS program<br>
