@@ -77,8 +77,35 @@ bash bash Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
 conda install numpy
 ```
-## Configure Bioconda
-Channels must be installed properly for bcftools instal
+## Install Bioconda apps
+
+Install fastqc
+```
+conda install bioconda::fastqc
+```
+Install trimmomatic
+```
+conda install bioconda::trimmomatic
+```
+Install bwa
+```
+conda install bioconda::bwa
+```
+Install samtools, bamtools, bcftools
+```
+conda install -c bioconda samtools
+```
+OR try
+```
+sudo apt get samtools
+```
+```
+conda install bioconda::bamtools
+```
+```
+git clone https://github.com/samtools/bcftools.git
+```
+**conda bcftools is buggy and deprecated, prior it was recommended to set channel priorities, best installation is the GitHub repo.
 ```
 conda config --add channels defaults
 conda config --add channels bioconda
@@ -86,30 +113,6 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-## Install Bioconda apps
-
-Install fastqc
-```
-conda install -c bioconda fastqc
-```
-Install trimmomatic
-```
-conda install -c bioconda trimmomatic
-```
-Install bwa
-```
-conda install -c bioconda bwa
-```
-Install samtools, bamtools, bcftools
-```
-conda install -c bioconda samtools
-```
-```
-conda install -c bioconda bamtools
-```
-```
-conda install bioconda::bcftools
-```
 Install snpeff
 ```
 conda install -c bioconda snpeff
