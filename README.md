@@ -107,6 +107,13 @@ Install BCFtools, from github, then compile
 ```
 git clone https://github.com/samtools/bcftools.git
 ```
+```
+autoheader && autoconf && ./configure --enable-libgsl --enable-perl-filters
+```
+```
+make
+```
+
 **conda bcftools is buggy and deprecated, prior it was recommended to set channel priorities, best installation is the GitHub repo.
 ```
 conda config --add channels defaults
