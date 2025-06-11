@@ -32,7 +32,7 @@ Architecture: x86-64<br>
 ## Steps
 Installations can run from the /home/exouser/ directory of the Jetstream2 VM.<br>
 
-1. Update system, (re)install curl (if required). 
+1. Update system. 
 2. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
 3. conda install fastqc, trimmomatic, bwa, samtools, bamtools, vcfutils, snpeff
 8. configure the ncbi-datasets conda environment
