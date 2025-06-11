@@ -24,7 +24,7 @@ UMBC, College of Natural and Mathematical Sciences, Translational Life Science T
 Step-by-step to install and convigure a Linux environment for comparative genomics workflows. 
 
 ## Set up Ubuntu Linux VM for the VCFgenerator workflow
-Built using a Linux virtual Machine in the NSF Jetstream2 cloud environment.<br>
+Built using a Linux Virtual Machine in the NSF Jetstream2 cloud environment.<br>
 Operating system: Ubuntu 24.04.2 LTS<br>
 Kernal: Linux 6.11.0-26-generic<br>
 Architecture: x86-64<br>
