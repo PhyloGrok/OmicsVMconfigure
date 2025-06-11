@@ -45,20 +45,18 @@ Installations run from the /home/exouser/ directory of a Jetstream2 Linux VM.<br
 ```
 sudo apt update
 ```
-3. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
-4. NSF Jetstream2 "exouser" should add locations to users .bashrc files: "/home/exouser/anaconda3/bin", "/home/exouser/anaconda3/condabin", "/home/exouser/bcftools/", "/home/exouser/edirect/" and "/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/".
+2. Install newest Anaconda version.
+
+3. Use conda to install fastqc, trimmomatic, bwa, samtools, bamtools, snpeff
+
+4. Install and validate NCBI Datasets
+5. Install and validate NCBI SRA-toolkit
+6. Install NCBI E-Utilities/EDirect API<br>
+
+***NSF Jetstream2 "exouser" should add locations to users .bashrc files: "/home/exouser/anaconda3/bin", "/home/exouser/anaconda3/condabin", "/home/exouser/bcftools/", "/home/exouser/edirect/" and "/usr/local/bin/sratoolkit.3.0.7-ubuntu64/bin/".
 ```
 export PATH=/home/exouser/anaconda3/bin:/home/exouser/anaconda3/condabin:/home/exouser/bcftools/:/home/exouser/htslib:$PATH
 ```
-
-3. conda install fastqc, trimmomatic, bwa, samtools, bamtools, vcfutils, snpeff
-
-
-8. configure the ncbi-datasets conda environment
-9. Install and validate NCBI SRA-toolkit
-10. Install NCBI E-Utilities/EDirect API<br>
-
-
 
 (pending validation)<br>
 11. Install base-R.
