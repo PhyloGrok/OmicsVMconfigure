@@ -25,10 +25,12 @@ Architecture: x86-64<br>
 
 ## General environment: 
    
-1. Update system, install Anaconda, Bioconda applications fastqc, trimmomatic, bwa, bamtools, vcfutils, samtools, snpEff. 
-2. Install NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
-4. Install base-R, R-Shiny package, and R-ShinyServer. (pending)
-5. Install igv-reports. (pending)
+1. Updated Ubuntu 24 VM.
+2. Installed Anaconda/Bioconda, and fastqc, trimmomatic, bwa, snpEff.
+3. BCFtools installed and compiled from GitHub repo.
+4. Installed NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
+5. Installed R-Shiny package,  R-ShinyServer. (pending)
+6. Install igv-reports. (pending)
 
 ## Steps
 Installations can run from the /home/exouser/ directory of the Jetstream2 VM.<br>
