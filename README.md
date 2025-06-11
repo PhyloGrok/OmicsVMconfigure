@@ -31,12 +31,11 @@ Architecture: x86-64<br>
 
 ## General environment: 
    
-1. Updated Ubuntu 24 VM.
-2. Installed Anaconda/Bioconda, and fastqc, trimmomatic, bwa, snpEff.
-3. BCFtools installed and compiled from GitHub repo.
-4. Installed NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
-5. Installed R-Shiny package,  R-ShinyServer. (pending)
-6. Install igv-reports. (pending)
+1. Ubuntu 24 VM.
+2. Bioinformatics applications: fastqc, trimmomatic, bwa, samtools, bamtools, bcftools, snpEff
+4. NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
+5. R-Shiny, R-ShinyServer. (pending)
+6. IGV-reports. (pending)
 
 ## Steps
 Installations run from the /home/exouser/ directory of a Jetstream2 Linux VM.<br>
