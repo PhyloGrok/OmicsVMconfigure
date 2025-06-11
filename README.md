@@ -3,9 +3,15 @@
 [![DOI](https://zenodo.org/badge/382447003.svg)](https://zenodo.org/badge/latestdoi/382447003)
 
 ```
-    |\__/,|   (`\
-  _.|o o  |_   ) )
--(((---(((--------
+⠀⢀⣀⠀⠀⠀⠀⠀⢀⣀⠀
+⢠⣯⢬⣷⡀⠀⠀⣴⡯⢌⣧
+⠸⣿⠀⠹⣷⠀⢸⡝⠀⢸⡿
+⠀⠻⣧⣀⣿⣦⣼⡁⣠⣿⠃
+⠀⢀⡾⠋⠀⠀⠀⠈⣙⣯⠀
+⠀⣾⠀⠀⠀⠀⠀⠀⠀⠸⡆
+⢰⡧⢄⢰⡆⠀⢰⡆⡠⢄⣧
+⠀⠳⣼⣤⣤⣤⣤⣤⣧⠾⠁
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ```
 <b>PI: Jeffrey Robinson, MS, PhD</b><br>
 Research Intern (BTEC495, 2003): Nhi Luu, BS<br>
