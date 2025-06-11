@@ -30,7 +30,7 @@ Architecture: x86-64<br>
 5. Install igv-reports. (pending)
 
 ## Steps
-Installations can run from the /home/exouser/ directory of the Jetstream2 VM. Multiple users are not supported for simplicity.<br>
+Installations can run from the /home/exouser/ directory of the Jetstream2 VM.<br>
 
 1. Update system, (re)install curl (if required). 
 2. Install Anaconda version- Anaconda3-2023.03-1-Linux-x86_64.sh
