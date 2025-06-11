@@ -102,15 +102,14 @@ sudo apt get samtools
 ```
 conda install bioconda::bamtools
 ```
-Install BCFtools, from github, then compile
+Install BCFtools, from github then compile.  Official BCFtools installation: 
 
 ```
 git clone https://github.com/samtools/bcftools.git
+cd bcftools
 ```
 ```
-autoheader && autoconf && ./configure --enable-libgsl --enable-perl-filters
-```
-```
+## optional "autoheader && autoconf && ./configure --enable-libgsl --enable-perl-filters"
 make
 ```
 
