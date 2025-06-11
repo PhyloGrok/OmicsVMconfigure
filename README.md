@@ -73,16 +73,13 @@ sudo apt install curl -y
 
 ## Install Anaconda. 
 https://docs.anaconda.com/anaconda/install/linux/
-``` 
-sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
-```
 
-The Anaconda3-2023.03-1-Linux-x86_64 distro works of 9/15/23, newer distros are not validated (https://repo.anaconda.com/archive/)
+The most recent version of Linux-x86_64 (Anaconda3-2024.10-1-Linux-x86_64) is in use (https://repo.anaconda.com/archive/).
 ```
 cd /tmp
 ```
 ```
-curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2023.03-1-Linux-x86_64.sh
+curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
 ```
 bash anaconda.sh
