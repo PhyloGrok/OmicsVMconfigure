@@ -56,17 +56,15 @@ export PATH=/home/exouser/anaconda3/bin:/home/exouser/anaconda3/condabin:/home/e
 ```
 
 ## 2. Install Anaconda Step-by-stem. 
-https://docs.anaconda.com/anaconda/install/linux/
+Official Anaconda installation page: https://docs.anaconda.com/anaconda/install/linux/
 
 The most recent version of Linux-x86_64 (Anaconda3-2024.10-1-Linux-x86_64) is in use (https://repo.anaconda.com/archive/).
+
 ```
-cd /tmp
-```
-```
-curl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+curl -O https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
 ```
 ```
-bash anaconda.sh
+bash bash Anaconda3-2024.10-1-Linux-x86_64.sh 
 ```
 - Accept license
 - Press Enter to the default installation PREFIX=/home/exouser/anaconda3
