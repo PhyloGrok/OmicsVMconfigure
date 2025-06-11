@@ -31,7 +31,7 @@ Architecture: x86-64<br>
 
 ## General environment: 
    
-1. Ubuntu 24 VM.
+1. Ubuntu 24.04 VM, hosted on NSF Jetstream2 cloud environment.
 2. Bioinformatics applications: fastqc, trimmomatic, bwa, samtools, bamtools, bcftools, snpEff
 4. NCBI SRA-toolkit, NCBI Edirect, NCBI Datasets APIs.
 5. R-Shiny, R-ShinyServer. (pending)
