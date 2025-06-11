@@ -102,7 +102,7 @@ sudo apt get samtools
 ```
 conda install bioconda::bamtools
 ```
-Install BCFtools, from github then compile.  Official BCFtools installation: 
+Install BCFtools, from github then compile.  Official BCFtools installation: https://samtools.github.io/bcftools/howtos/install.html
 
 ```
 git clone https://github.com/samtools/bcftools.git
