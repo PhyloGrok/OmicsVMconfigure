@@ -37,7 +37,7 @@ Architecture: x86-64<br>
 5. R-Shiny, R-ShinyServer. (pending)
 6. IGV-reports. (pending)
 
-## Steps
+## Installations
 Installations run from the /home/exouser/ directory of a Jetstream2 Linux VM.<br>
 
 1. Update system.
@@ -45,9 +45,7 @@ Installations run from the /home/exouser/ directory of a Jetstream2 Linux VM.<br
 sudo apt update
 ```
 2. Install newest Anaconda version.
-
 3. Use conda to install fastqc, trimmomatic, bwa, samtools, bamtools, snpeff
-
 4. Install and validate NCBI Datasets
 5. Install and validate NCBI SRA-toolkit
 6. Install NCBI E-Utilities/EDirect API<br>
@@ -57,21 +55,7 @@ sudo apt update
 export PATH=/home/exouser/anaconda3/bin:/home/exouser/anaconda3/condabin:/home/exouser/bcftools/:/home/exouser/htslib:$PATH
 ```
 
-(pending validation)<br>
-11. Install base-R.
-12. Install R-Shiny package, ShinyServer
-13. Install/Clone igv-reports
-
-## Update System, install curl.
-```
-sudo apt update
-```
-Ubuntu Linux 20.04 has curl natively
-```
-sudo apt install curl -y
-```
-
-## Install Anaconda. 
+## 2. Install Anaconda Step-by-stem. 
 https://docs.anaconda.com/anaconda/install/linux/
 
 The most recent version of Linux-x86_64 (Anaconda3-2024.10-1-Linux-x86_64) is in use (https://repo.anaconda.com/archive/).
