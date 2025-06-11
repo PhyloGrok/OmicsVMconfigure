@@ -12,6 +12,7 @@ Research Intern (BTEC495, 2003): Nhi Luu, BS<br>
 Research Intern (BTEC495, 2025): Elaysha Hall, BS<br>
 Research Intern (BTEC495, 2025): Rachel Chan, BS<br>
 UMBC, College of Natural and Mathematical Sciences, Translational Life Science Technology (TLST) BS program<br>
+
 **This VM setup was partly adapted from Data Carpentries Genomics Workshop (Becker et al. 2023)<br>
 
 Install and configure command-line Linux environment for comparative genomics workflows.  Includes open-source tools required for searching, downloading, and processing raw NextGen sequencing data and running a genome variant calling workflow.  Build using a Linux Virtual Machine in the NSF Jetstream2 cloud environment.  Web-apps based on this configuation appear in separate repositories.
