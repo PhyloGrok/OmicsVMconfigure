@@ -103,7 +103,7 @@ conda install bioconda::samtools
 ```
 OR try
 ```
-sudo apt get samtools
+sudo apt install samtools
 ```
 ```
 conda install bioconda::bamtools
