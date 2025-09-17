@@ -99,7 +99,7 @@ conda install bioconda::bwa
 ```
 Install samtools, bamtools, bcftools
 ```
-conda install -c bioconda::samtools
+conda install bioconda::samtools
 ```
 OR try
 ```
